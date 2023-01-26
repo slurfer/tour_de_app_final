@@ -1,7 +1,0 @@
-export { UniversalInput } from "./UniversalInput"
-export { SelectProgrammingLanguage } from "./SelectProgrammingLanguage"
-export { SelectColor } from "./SelectColor"
-export { SelectRating } from "./SelectRating"
-export { SelectUser } from "./SelectUser"
-export { FormButton } from "./FormButton"
-export { SelectTags } from "./SelectTags"
