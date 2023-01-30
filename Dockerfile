@@ -40,7 +40,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y python3
 RUN apt-get install -y python3-pip
 RUN apt install nginx -y
-COPY ./frontend/.nginx/nginx.conf /etc/nginx/nginx.conf
+COPY .nginx/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /usr/share/nginx/html/*
 COPY --from=builder /nextjs-ui/out /usr/share/nginx/html/
 EXPOSE 3000 80
