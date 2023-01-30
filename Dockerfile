@@ -43,7 +43,7 @@ RUN apt install nginx -y
 COPY .nginx/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /usr/share/nginx/html/*
 COPY --from=builder /nextjs-ui/out /usr/share/nginx/html/
-EXPOSE 3000 80
+ENV PORT=80
 
 # Set the working directory in the container
 WORKDIR /app
