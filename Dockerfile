@@ -56,7 +56,7 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Copy the application code into the container
 
-
+RUN chmod +x /server.sh
 # Set the environment variable for Flask
 ENV FLASK_APP=flask_app.py
 # ENTRYPOINT ["nginx", "-g", "daemon off;"]
