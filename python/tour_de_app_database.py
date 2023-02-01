@@ -1,6 +1,5 @@
 import sqlite3
 from typing import Dict, Tuple, List, Any
-from login import *
 from flask import Response
 from record import Record
 from database_table import DatabaseTable
