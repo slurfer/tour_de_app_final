@@ -1,278 +1,240 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 3847:
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6764);
-/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _src_store_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6935);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6022);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _src_functions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8685);
-/* harmony import */ var _src_store_actions__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5213);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_src_functions__WEBPACK_IMPORTED_MODULE_5__]);
-_src_functions__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-
-
-
-function App({ Component , pageProps  }) {
-    const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_3__.useDispatch)();
-    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(()=>{
-        const updateUsers = async ()=>{
-            const serverData = await (0,_src_functions__WEBPACK_IMPORTED_MODULE_5__/* .getRequest */ .A_)("programmer");
-            dispatch((0,_src_store_actions__WEBPACK_IMPORTED_MODULE_6__/* .setUsers */ .HM)(serverData));
-        };
-        updateUsers();
-        const updateTags = async ()=>{
-            const serverData = await (0,_src_functions__WEBPACK_IMPORTED_MODULE_5__/* .getRequest */ .A_)("tag");
-            dispatch((0,_src_store_actions__WEBPACK_IMPORTED_MODULE_6__/* .setTags */ .mG)(serverData));
-        };
-        updateTags();
-    }, [
-        dispatch
-    ]);
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_redux__WEBPACK_IMPORTED_MODULE_3__.Provider, {
-        store: _src_store_store__WEBPACK_IMPORTED_MODULE_2__/* .store */ .h,
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
-            ...pageProps
-        })
-    });
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_src_store_store__WEBPACK_IMPORTED_MODULE_2__/* .wrapper.withRedux */ .Y.withRedux(App));
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _src_store_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/store/store */ \"./src/store/store.ts\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _src_functions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/functions */ \"./src/functions/index.js\");\n/* harmony import */ var _src_store_actions__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/store/actions */ \"./src/store/actions/index.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_src_functions__WEBPACK_IMPORTED_MODULE_5__]);\n_src_functions__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\n\n\nfunction App({ Component , pageProps  }) {\n    const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_3__.useDispatch)();\n    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(()=>{\n        const updateUsers = async ()=>{\n            const serverData = await (0,_src_functions__WEBPACK_IMPORTED_MODULE_5__.getRequest)(\"programmer\");\n            dispatch((0,_src_store_actions__WEBPACK_IMPORTED_MODULE_6__.setUsers)(serverData));\n        };\n        updateUsers();\n        const updateTags = async ()=>{\n            const serverData = await (0,_src_functions__WEBPACK_IMPORTED_MODULE_5__.getRequest)(\"tag\");\n            dispatch((0,_src_store_actions__WEBPACK_IMPORTED_MODULE_6__.setTags)(serverData));\n        };\n        updateTags();\n    }, [\n        dispatch\n    ]);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_redux__WEBPACK_IMPORTED_MODULE_3__.Provider, {\n        store: _src_store_store__WEBPACK_IMPORTED_MODULE_2__.store,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n            ...pageProps\n        }, void 0, false, {\n            fileName: \"/home/martin/Documents/programov\\xe1n\\xed/TourDeApp/my_project/tour_de_app_final/frontend/pages/_app.tsx\",\n            lineNumber: 27,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/martin/Documents/programov\\xe1n\\xed/TourDeApp/my_project/tour_de_app_final/frontend/pages/_app.tsx\",\n        lineNumber: 26,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_src_store_store__WEBPACK_IMPORTED_MODULE_2__.wrapper.withRedux(App));\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUE4QjtBQUVxQjtBQUNEO0FBQ2pCO0FBQ1k7QUFDVztBQUV4RCxTQUFTUSxJQUFJLEVBQUVDLFVBQVMsRUFBRUMsVUFBUyxFQUFZLEVBQUU7SUFDL0MsTUFBTUMsV0FBV1Isd0RBQVdBO0lBRTVCQyxnREFBU0EsQ0FBQyxJQUFNO1FBQ2QsTUFBTVEsY0FBYyxVQUFXO1lBQzdCLE1BQU1DLGFBQWEsTUFBTVIsMERBQVVBLENBQUM7WUFDcENNLFNBQVNMLDREQUFRQSxDQUFDTztRQUNwQjtRQUNBRDtRQUNBLE1BQU1FLGFBQWEsVUFBVztZQUM1QixNQUFNRCxhQUFhLE1BQU1SLDBEQUFVQSxDQUFDO1lBQ3BDTSxTQUFTSiwyREFBT0EsQ0FBQ007UUFDbkI7UUFDQUM7SUFDRixHQUFHO1FBQUNIO0tBQVM7SUFFYixxQkFDRSw4REFBQ1QsaURBQVFBO1FBQUNGLE9BQU9BLG1EQUFLQTtrQkFDcEIsNEVBQUNTO1lBQVcsR0FBR0MsU0FBUzs7Ozs7Ozs7Ozs7QUFHOUI7QUFFQSxpRUFBZVQsK0RBQWlCLENBQUNPLElBQUlBLEVBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vcGFnZXMvX2FwcC50c3g/MmZiZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi9zdHlsZXMvZ2xvYmFscy5jc3NcIlxuaW1wb3J0IHR5cGUgeyBBcHBQcm9wcyB9IGZyb20gXCJuZXh0L2FwcFwiXG5pbXBvcnQgeyBzdG9yZSwgd3JhcHBlciB9IGZyb20gXCIuLi9zcmMvc3RvcmUvc3RvcmVcIlxuaW1wb3J0IHsgUHJvdmlkZXIsdXNlRGlzcGF0Y2ggfSBmcm9tIFwicmVhY3QtcmVkdXhcIlxuaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCJcbmltcG9ydCB7IGdldFJlcXVlc3QgfSBmcm9tIFwiLi4vc3JjL2Z1bmN0aW9uc1wiXG5pbXBvcnQgeyBzZXRVc2Vycywgc2V0VGFncyB9IGZyb20gXCIuLi9zcmMvc3RvcmUvYWN0aW9uc1wiXG5cbmZ1bmN0aW9uIEFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH06IEFwcFByb3BzKSB7XG4gIGNvbnN0IGRpc3BhdGNoID0gdXNlRGlzcGF0Y2goKVxuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgY29uc3QgdXBkYXRlVXNlcnMgPSBhc3luYyAoKSA9PntcbiAgICAgIGNvbnN0IHNlcnZlckRhdGEgPSBhd2FpdCBnZXRSZXF1ZXN0KFwicHJvZ3JhbW1lclwiKVxuICAgICAgZGlzcGF0Y2goc2V0VXNlcnMoc2VydmVyRGF0YSkpXG4gICAgfVxuICAgIHVwZGF0ZVVzZXJzKClcbiAgICBjb25zdCB1cGRhdGVUYWdzID0gYXN5bmMgKCkgPT57XG4gICAgICBjb25zdCBzZXJ2ZXJEYXRhID0gYXdhaXQgZ2V0UmVxdWVzdChcInRhZ1wiKVxuICAgICAgZGlzcGF0Y2goc2V0VGFncyhzZXJ2ZXJEYXRhKSlcbiAgICB9XG4gICAgdXBkYXRlVGFncygpXG4gIH0sIFtkaXNwYXRjaF0pXG5cbiAgcmV0dXJuKFxuICAgIDxQcm92aWRlciBzdG9yZT17c3RvcmV9PlxuICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgIDwvUHJvdmlkZXI+XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgd3JhcHBlci53aXRoUmVkdXgoQXBwKVxuXG4iXSwibmFtZXMiOlsic3RvcmUiLCJ3cmFwcGVyIiwiUHJvdmlkZXIiLCJ1c2VEaXNwYXRjaCIsInVzZUVmZmVjdCIsImdldFJlcXVlc3QiLCJzZXRVc2VycyIsInNldFRhZ3MiLCJBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJkaXNwYXRjaCIsInVwZGF0ZVVzZXJzIiwic2VydmVyRGF0YSIsInVwZGF0ZVRhZ3MiLCJ3aXRoUmVkdXgiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
 
 /***/ }),
 
-/***/ 6935:
+/***/ "./src/constants/index.ts":
+/*!********************************!*\
+  !*** ./src/constants/index.ts ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "h": () => (/* binding */ store),
-  "Y": () => (/* binding */ wrapper)
-});
-
-;// CONCATENATED MODULE: external "redux"
-const external_redux_namespaceObject = require("redux");
-;// CONCATENATED MODULE: external "redux-thunk"
-const external_redux_thunk_namespaceObject = require("redux-thunk");
-var external_redux_thunk_default = /*#__PURE__*/__webpack_require__.n(external_redux_thunk_namespaceObject);
-;// CONCATENATED MODULE: external "redux-devtools-extension"
-const external_redux_devtools_extension_namespaceObject = require("redux-devtools-extension");
-;// CONCATENATED MODULE: external "next-redux-wrapper"
-const external_next_redux_wrapper_namespaceObject = require("next-redux-wrapper");
-;// CONCATENATED MODULE: ./src/store/reducers/records_reducer.ts
-const recordsReducer = (state = [], action)=>{
-    switch(action.type){
-        case "SET_RECORDS":
-            {
-                return action.records ? action.records : [];
-            }
-        case "ADD_RECORD":
-            {
-                return [
-                    action.newrecord,
-                    ...state
-                ];
-            }
-        case "REMOVE_RECORD":
-            {
-                return state.filter((record)=>record.id !== action.deletedrecord_id);
-            }
-        case "UPDATE_RECORD":
-            {
-                return state.map((record)=>record.id !== action.updatedrecord_id ? record : action.newrecord);
-            }
-        case "SORT_RECORDS_FROM_OLDEST":
-            {
-                return state.sort((a, b)=>new Date(a.datetime).toISOString().localeCompare(new Date(b.datetime).toISOString()));
-            }
-        case "SORT_RECORDS_FROM_NEWEST":
-            {
-                return state.sort((a, b)=>new Date(b.datetime).toISOString().localeCompare(new Date(a.datetime).toISOString()));
-            }
-        case "SORT_RECORDS_FROM_LOWEST_RATING":
-            {
-                return state.sort((a, b)=>a.rating - b.rating);
-            }
-        case "SORT_RECORDS_FROM_HIGHEST_RATING":
-            {
-                return state.sort((a, b)=>b.rating - a.rating);
-            }
-        case "SORT_RECORDS_FROM_SHORTEST":
-            {
-                return state.sort((a, b)=>a.minutes_spent - b.minutes_spent);
-            }
-        case "SORT_RECORDS_FROM_LONGEST":
-            {
-                return state.sort((a, b)=>b.minutes_spent - a.minutes_spent);
-            }
-        default:
-            return state;
-    }
-};
-
-;// CONCATENATED MODULE: ./src/store/reducers/sidebar_reducer.ts
-const sidebarReducer = (state = false, action)=>{
-    switch(action.type){
-        case "TOGGLE_VISIBILITY":
-            {
-                return !state;
-            }
-        default:
-            return state;
-    }
-};
-
-;// CONCATENATED MODULE: ./src/store/reducers/users_reducer.ts
-const usersReducer = (state = [], action)=>{
-    switch(action.type){
-        case "SET_USERS":
-            {
-                return action.users ? action.users : [];
-            }
-        case "ADD_USER":
-            {
-                return [
-                    action.newuser,
-                    ...state
-                ];
-            }
-        case "REMOVE_USER":
-            {
-                return state.filter((user)=>user.id !== action.deleteduser_id);
-            }
-        case "UPDATE_USER":
-            {
-                return state.map((record)=>record.id !== action.updated_user_id ? record : action.newrecord);
-            }
-        default:
-            return state;
-    }
-};
-
-;// CONCATENATED MODULE: ./src/store/reducers/tags_reducer.ts
-const tagsReducer = (state = [], action)=>{
-    switch(action.type){
-        case "SET_TAGS":
-            {
-                return action.tags ? action.tags : [];
-            }
-        case "ADD_TAG":
-            {
-                return [
-                    action.newtag,
-                    ...state
-                ];
-            }
-        case "REMOVE_TAG":
-            {
-                return state.filter((tag)=>tag.id !== action.deleted_tag_id);
-            }
-        case "UPDATE_TAG":
-            {
-                return state.map((record)=>record.id !== action.updated_tag_id ? record : action.new_tag);
-            }
-        default:
-            return state;
-    }
-};
-
-;// CONCATENATED MODULE: ./src/store/reducers/page_reducer.ts
-const pageReducer = (state = "home", action)=>{
-    switch(action.type){
-        case "SET_PAGE":
-            {
-                return action.page;
-            }
-        default:
-            return state;
-    }
-};
-
-;// CONCATENATED MODULE: ./src/store/reducers/dark_mode_reducer.ts
-const darkModeReducer = (state = false, action)=>{
-    switch(action.type){
-        case "TOGGLE_DARK_MODE":
-            {
-                return !state;
-            }
-        default:
-            return state;
-    }
-};
-
-;// CONCATENATED MODULE: ./src/store/reducers/index.ts
-
-
-
-
-
-
-
-/* harmony default export */ const reducers = ((0,external_redux_namespaceObject.combineReducers)({
-    records: recordsReducer,
-    sidebar: sidebarReducer,
-    users: usersReducer,
-    tags: tagsReducer,
-    page: pageReducer,
-    mode: darkModeReducer
-}));
-
-;// CONCATENATED MODULE: ./src/store/store.ts
-
-
-
-
-
-const initalState = {
-    records: [],
-    sidebar: false,
-    users: [],
-    tags: [],
-    page: "home",
-    mode: false
-};
-const middleware = [
-    (external_redux_thunk_default())
-];
-const store = (0,external_redux_namespaceObject.createStore)(reducers, initalState, (0,external_redux_devtools_extension_namespaceObject.composeWithDevTools)((0,external_redux_namespaceObject.applyMiddleware)(...middleware)));
-const makeStore = ()=>store;
-const wrapper = (0,external_next_redux_wrapper_namespaceObject.createWrapper)(makeStore);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"baseUrl\": () => (/* binding */ baseUrl),\n/* harmony export */   \"colorsCodes\": () => (/* binding */ colorsCodes),\n/* harmony export */   \"colorsNames\": () => (/* binding */ colorsNames),\n/* harmony export */   \"inputSameProperties\": () => (/* binding */ inputSameProperties),\n/* harmony export */   \"programmingLanguages\": () => (/* binding */ programmingLanguages),\n/* harmony export */   \"sorting\": () => (/* binding */ sorting)\n/* harmony export */ });\nconst baseUrl = \"http://localhost:5000\";\nconst programmingLanguages = [\n    \"Python\",\n    \"Javascript\",\n    \"C++\"\n];\nconst inputSameProperties = \"w-full my-[4px] rounded-md border border-black p-2 m-auto\";\nconst colorsNames = [\n    \"yellow\",\n    \"orange\",\n    \"red\",\n    \"pink\",\n    \"purple\",\n    \"blue\",\n    \"green\",\n    \"brown\"\n];\nconst colorsCodes = [\n    \"bg-[#ffe100]\",\n    \"bg-[#FFA500]\",\n    \"bg-[#DC143C]\",\n    \"bg-[#FF69B4]\",\n    \"bg-[#9400D3]\",\n    \"bg-[#0000FF]\",\n    \"bg-[#32CD32]\",\n    \"bg-[#8B4513]\"\n];\nconst sorting = [\n    \"from newest\",\n    \"from oldest\",\n    \"from best rating\",\n    \"from worst rating\",\n    \"from shortest\",\n    \"from longest\",\n    \"no sorting\"\n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29uc3RhbnRzL2luZGV4LnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFPLE1BQU1BLFVBQVUsd0JBQXVCO0FBQ3ZDLE1BQU1DLHVCQUF1QjtJQUFDO0lBQVM7SUFBYTtDQUFNO0FBQzFELE1BQU1DLHNCQUFxQiw0REFBMkQ7QUFDdEYsTUFBTUMsY0FBYztJQUFDO0lBQVM7SUFBUztJQUFNO0lBQU87SUFBUztJQUFPO0lBQVE7Q0FBUTtBQUNwRixNQUFNQyxjQUFjO0lBQUM7SUFBZ0I7SUFBZ0I7SUFBZ0I7SUFBZ0I7SUFBZ0I7SUFBZ0I7SUFBZ0I7Q0FBZTtBQUNwSixNQUFNQyxVQUFVO0lBQUM7SUFBYztJQUFjO0lBQW1CO0lBQW9CO0lBQWdCO0lBQWU7Q0FBYSIsInNvdXJjZXMiOlsid2VicGFjazovL2RvbmVyby1hcHAvLi9zcmMvY29uc3RhbnRzL2luZGV4LnRzPzYzZmUiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGJhc2VVcmwgPSBcImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMFwiXG5leHBvcnQgY29uc3QgcHJvZ3JhbW1pbmdMYW5ndWFnZXMgPSBbXCJQeXRob25cIixcIkphdmFzY3JpcHRcIixcIkMrK1wiXVxuZXhwb3J0IGNvbnN0IGlucHV0U2FtZVByb3BlcnRpZXMgPVwidy1mdWxsIG15LVs0cHhdIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ibGFjayBwLTIgbS1hdXRvXCJcbmV4cG9ydCBjb25zdCBjb2xvcnNOYW1lcyA9IFtcInllbGxvd1wiLFwib3JhbmdlXCIsXCJyZWRcIixcInBpbmtcIixcInB1cnBsZVwiLFwiYmx1ZVwiLFwiZ3JlZW5cIixcImJyb3duXCJdXG5leHBvcnQgY29uc3QgY29sb3JzQ29kZXMgPSBbXCJiZy1bI2ZmZTEwMF1cIiwgXCJiZy1bI0ZGQTUwMF1cIiwgXCJiZy1bI0RDMTQzQ11cIiwgXCJiZy1bI0ZGNjlCNF1cIiwgXCJiZy1bIzk0MDBEM11cIiwgXCJiZy1bIzAwMDBGRl1cIiwgXCJiZy1bIzMyQ0QzMl1cIiwgXCJiZy1bIzhCNDUxM11cIl1cbmV4cG9ydCBjb25zdCBzb3J0aW5nID0gW1wiZnJvbSBuZXdlc3RcIixcImZyb20gb2xkZXN0XCIsXCJmcm9tIGJlc3QgcmF0aW5nXCIsXCJmcm9tIHdvcnN0IHJhdGluZ1wiLFwiZnJvbSBzaG9ydGVzdFwiLFwiZnJvbSBsb25nZXN0XCIsXCJubyBzb3J0aW5nXCJdIl0sIm5hbWVzIjpbImJhc2VVcmwiLCJwcm9ncmFtbWluZ0xhbmd1YWdlcyIsImlucHV0U2FtZVByb3BlcnRpZXMiLCJjb2xvcnNOYW1lcyIsImNvbG9yc0NvZGVzIiwic29ydGluZyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/constants/index.ts\n");
 
 /***/ }),
 
-/***/ 6764:
+/***/ "./src/functions/api/delete.ts":
+/*!*************************************!*\
+  !*** ./src/functions/api/delete.ts ***!
+  \*************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"deleteRequest\": () => (/* binding */ deleteRequest)\n/* harmony export */ });\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../constants */ \"./src/constants/index.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_0__]);\naxios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nconst deleteRequest = async (path, id)=>{\n    try {\n        const response = await axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"][\"delete\"](`${_constants__WEBPACK_IMPORTED_MODULE_1__.baseUrl}/${path}/${id}`);\n        console.log(response.data);\n    } catch (error) {\n        console.error(error);\n    }\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL2FwaS9kZWxldGUudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXlCO0FBQ2dCO0FBRWxDLE1BQU1FLGdCQUFnQixPQUFPQyxNQUFZQyxLQUFjO0lBQzVELElBQUk7UUFDRixNQUFNQyxXQUFXLE1BQU1MLHVEQUFZLENBQUMsQ0FBQyxFQUFFQywrQ0FBT0EsQ0FBQyxDQUFDLEVBQUVFLEtBQUssQ0FBQyxFQUFFQyxHQUFHLENBQUM7UUFDOURHLFFBQVFDLEdBQUcsQ0FBQ0gsU0FBU0ksSUFBSTtJQUMzQixFQUFFLE9BQU9DLE9BQU87UUFDZEgsUUFBUUcsS0FBSyxDQUFDQTtJQUNoQjtBQUNGLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL2Z1bmN0aW9ucy9hcGkvZGVsZXRlLnRzPzNmOTMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGF4aW9zIGZyb20gXCJheGlvc1wiXG5pbXBvcnQgeyBiYXNlVXJsIH0gZnJvbSBcIi4uLy4uL2NvbnN0YW50c1wiXG5cbmV4cG9ydCBjb25zdCBkZWxldGVSZXF1ZXN0ID0gYXN5bmMgKHBhdGg6c3RyaW5nLGlkOiBudW1iZXIpPT4ge1xuICB0cnkge1xuICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXhpb3MuZGVsZXRlKGAke2Jhc2VVcmx9LyR7cGF0aH0vJHtpZH1gKVxuICAgIGNvbnNvbGUubG9nKHJlc3BvbnNlLmRhdGEpXG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgY29uc29sZS5lcnJvcihlcnJvcilcbiAgfVxufSJdLCJuYW1lcyI6WyJheGlvcyIsImJhc2VVcmwiLCJkZWxldGVSZXF1ZXN0IiwicGF0aCIsImlkIiwicmVzcG9uc2UiLCJkZWxldGUiLCJjb25zb2xlIiwibG9nIiwiZGF0YSIsImVycm9yIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/functions/api/delete.ts\n");
+
+/***/ }),
+
+/***/ "./src/functions/api/get.ts":
+/*!**********************************!*\
+  !*** ./src/functions/api/get.ts ***!
+  \**********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getRequest\": () => (/* binding */ getRequest)\n/* harmony export */ });\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../constants */ \"./src/constants/index.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_0__]);\naxios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nconst getRequest = async (path)=>{\n    try {\n        const response = await axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].get(`${_constants__WEBPACK_IMPORTED_MODULE_1__.baseUrl}/${path}`);\n        return response.data;\n    } catch (error) {\n        console.error(error);\n    }\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL2FwaS9nZXQudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXlCO0FBQ2dCO0FBRWxDLE1BQU1FLGFBQWEsT0FBT0MsT0FBZ0I7SUFDL0MsSUFBSTtRQUNGLE1BQU1DLFdBQVcsTUFBTUosaURBQVMsQ0FBQyxDQUFDLEVBQUVDLCtDQUFPQSxDQUFDLENBQUMsRUFBRUUsS0FBSyxDQUFDO1FBQ3JELE9BQU9DLFNBQVNFLElBQUk7SUFDdEIsRUFBRSxPQUFPQyxPQUFPO1FBQ2RDLFFBQVFELEtBQUssQ0FBQ0E7SUFDaEI7QUFDRixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZG9uZXJvLWFwcC8uL3NyYy9mdW5jdGlvbnMvYXBpL2dldC50cz80OGMzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBheGlvcyBmcm9tIFwiYXhpb3NcIlxuaW1wb3J0IHsgYmFzZVVybCB9IGZyb20gXCIuLi8uLi9jb25zdGFudHNcIlxuXG5leHBvcnQgY29uc3QgZ2V0UmVxdWVzdCA9IGFzeW5jIChwYXRoOnN0cmluZykgPT4ge1xuICB0cnkge1xuICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXhpb3MuZ2V0KGAke2Jhc2VVcmx9LyR7cGF0aH1gKVxuICAgIHJldHVybihyZXNwb25zZS5kYXRhKVxuICB9IGNhdGNoIChlcnJvcikge1xuICAgIGNvbnNvbGUuZXJyb3IoZXJyb3IpXG4gIH1cbn0iXSwibmFtZXMiOlsiYXhpb3MiLCJiYXNlVXJsIiwiZ2V0UmVxdWVzdCIsInBhdGgiLCJyZXNwb25zZSIsImdldCIsImRhdGEiLCJlcnJvciIsImNvbnNvbGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/functions/api/get.ts\n");
+
+/***/ }),
+
+/***/ "./src/functions/api/post.ts":
+/*!***********************************!*\
+  !*** ./src/functions/api/post.ts ***!
+  \***********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"postRequest\": () => (/* binding */ postRequest)\n/* harmony export */ });\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../constants */ \"./src/constants/index.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_0__]);\naxios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nconst postRequest = async (data, path)=>{\n    try {\n        const response = await axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].post(`${_constants__WEBPACK_IMPORTED_MODULE_1__.baseUrl}/${path}`, data);\n        return response.data;\n    } catch (error) {\n        console.error(error);\n    }\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL2FwaS9wb3N0LnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUF5QjtBQUNnQjtBQUdsQyxNQUFNRSxjQUFjLE9BQU9DLE1BQTZCQyxPQUFnQjtJQUM3RSxJQUFJO1FBQ0YsTUFBTUMsV0FBVyxNQUFNTCxrREFBVSxDQUFDLENBQUMsRUFBRUMsK0NBQU9BLENBQUMsQ0FBQyxFQUFFRyxLQUFLLENBQUMsRUFBRUQ7UUFDeEQsT0FBT0UsU0FBU0YsSUFBSTtJQUN0QixFQUFFLE9BQU9JLE9BQU87UUFDZEMsUUFBUUQsS0FBSyxDQUFDQTtJQUNoQjtBQUNGLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL2Z1bmN0aW9ucy9hcGkvcG9zdC50cz8wMzRlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBheGlvcyBmcm9tIFwiYXhpb3NcIlxuaW1wb3J0IHsgYmFzZVVybCB9IGZyb20gXCIuLi8uLi9jb25zdGFudHNcIlxuaW1wb3J0IHsgSURpYXJ5RW50cnksIElUYWcsIElVc2VyIH0gZnJvbSBcIi4uLy4uL3R5cGVzXCJcblxuZXhwb3J0IGNvbnN0IHBvc3RSZXF1ZXN0ID0gYXN5bmMgKGRhdGE6IElEaWFyeUVudHJ5fElVc2VyfElUYWcscGF0aDpzdHJpbmcpID0+IHtcbiAgdHJ5IHtcbiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGF4aW9zLnBvc3QoYCR7YmFzZVVybH0vJHtwYXRofWAsIGRhdGEpXG4gICAgcmV0dXJuKHJlc3BvbnNlLmRhdGEpXG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgY29uc29sZS5lcnJvcihlcnJvcilcbiAgfVxufSJdLCJuYW1lcyI6WyJheGlvcyIsImJhc2VVcmwiLCJwb3N0UmVxdWVzdCIsImRhdGEiLCJwYXRoIiwicmVzcG9uc2UiLCJwb3N0IiwiZXJyb3IiLCJjb25zb2xlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/functions/api/post.ts\n");
+
+/***/ }),
+
+/***/ "./src/functions/api/put.ts":
+/*!**********************************!*\
+  !*** ./src/functions/api/put.ts ***!
+  \**********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"putRequest\": () => (/* binding */ putRequest)\n/* harmony export */ });\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../constants */ \"./src/constants/index.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_0__]);\naxios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nconst putRequest = async (path, id, data)=>{\n    try {\n        const response = await axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].put(`${_constants__WEBPACK_IMPORTED_MODULE_1__.baseUrl}/${path}/${id}`, data);\n        return response.data;\n    } catch (error) {\n        console.error(error);\n    }\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL2FwaS9wdXQudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXlCO0FBQ2dCO0FBR2xDLE1BQU1FLGFBQWEsT0FBT0MsTUFBWUMsSUFBWUMsT0FBZ0M7SUFDdkYsSUFBSTtRQUNGLE1BQU1DLFdBQVcsTUFBTU4saURBQVMsQ0FBQyxDQUFDLEVBQUVDLCtDQUFPQSxDQUFDLENBQUMsRUFBRUUsS0FBSyxDQUFDLEVBQUVDLEdBQUcsQ0FBQyxFQUFFQztRQUM3RCxPQUFPQyxTQUFTRCxJQUFJO0lBQ3RCLEVBQUUsT0FBT0csT0FBTztRQUNkQyxRQUFRRCxLQUFLLENBQUNBO0lBQ2hCO0FBQ0YsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2RvbmVyby1hcHAvLi9zcmMvZnVuY3Rpb25zL2FwaS9wdXQudHM/YmM5MiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgYXhpb3MgZnJvbSBcImF4aW9zXCJcbmltcG9ydCB7IGJhc2VVcmwgfSBmcm9tIFwiLi4vLi4vY29uc3RhbnRzXCJcbmltcG9ydCB7IElEaWFyeUVudHJ5LCBJVGFnLCBJVXNlciB9IGZyb20gXCIuLi8uLi90eXBlc1wiXG5cbmV4cG9ydCBjb25zdCBwdXRSZXF1ZXN0ID0gYXN5bmMgKHBhdGg6c3RyaW5nLGlkOiBudW1iZXIsIGRhdGE6IElEaWFyeUVudHJ5fElVc2VyfElUYWcpPT4ge1xuICB0cnkge1xuICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXhpb3MucHV0KGAke2Jhc2VVcmx9LyR7cGF0aH0vJHtpZH1gLCBkYXRhKVxuICAgIHJldHVybihyZXNwb25zZS5kYXRhKVxuICB9IGNhdGNoIChlcnJvcikge1xuICAgIGNvbnNvbGUuZXJyb3IoZXJyb3IpXG4gIH1cbn0iXSwibmFtZXMiOlsiYXhpb3MiLCJiYXNlVXJsIiwicHV0UmVxdWVzdCIsInBhdGgiLCJpZCIsImRhdGEiLCJyZXNwb25zZSIsInB1dCIsImVycm9yIiwiY29uc29sZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/functions/api/put.ts\n");
+
+/***/ }),
+
+/***/ "./src/functions/date/esthetic_date.ts":
+/*!*********************************************!*\
+  !*** ./src/functions/date/esthetic_date.ts ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getEstheticDate\": () => (/* binding */ getEstheticDate)\n/* harmony export */ });\n//this function takes format \"2022-12-29 14:16:37\" and makes it format 26.12. 2022\nfunction getEstheticDate(dateString) {\n    const date = new Date(dateString);\n    const day = date.getDate();\n    const month = date.getMonth() + 1;\n    const year = date.getFullYear();\n    return `${day}.${month}. ${year}`;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL2RhdGUvZXN0aGV0aWNfZGF0ZS50cy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsa0ZBQWtGO0FBQzNFLFNBQVNBLGdCQUFnQkMsVUFBaUIsRUFBRTtJQUNqRCxNQUFNQyxPQUFPLElBQUlDLEtBQUtGO0lBQ3RCLE1BQU1HLE1BQU1GLEtBQUtHLE9BQU87SUFDeEIsTUFBTUMsUUFBUUosS0FBS0ssUUFBUSxLQUFLO0lBQ2hDLE1BQU1DLE9BQU9OLEtBQUtPLFdBQVc7SUFFN0IsT0FBTyxDQUFDLEVBQUVMLElBQUksQ0FBQyxFQUFFRSxNQUFNLEVBQUUsRUFBRUUsS0FBSyxDQUFDO0FBQ25DLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL2Z1bmN0aW9ucy9kYXRlL2VzdGhldGljX2RhdGUudHM/MjM0MSJdLCJzb3VyY2VzQ29udGVudCI6WyIvL3RoaXMgZnVuY3Rpb24gdGFrZXMgZm9ybWF0IFwiMjAyMi0xMi0yOSAxNDoxNjozN1wiIGFuZCBtYWtlcyBpdCBmb3JtYXQgMjYuMTIuIDIwMjJcbmV4cG9ydCBmdW5jdGlvbiBnZXRFc3RoZXRpY0RhdGUoZGF0ZVN0cmluZzpzdHJpbmcpIHtcbiAgY29uc3QgZGF0ZSA9IG5ldyBEYXRlKGRhdGVTdHJpbmcpXG4gIGNvbnN0IGRheSA9IGRhdGUuZ2V0RGF0ZSgpXG4gIGNvbnN0IG1vbnRoID0gZGF0ZS5nZXRNb250aCgpICsgMVxuICBjb25zdCB5ZWFyID0gZGF0ZS5nZXRGdWxsWWVhcigpXG4gIFxuICByZXR1cm4gYCR7ZGF5fS4ke21vbnRofS4gJHt5ZWFyfWBcbn0iXSwibmFtZXMiOlsiZ2V0RXN0aGV0aWNEYXRlIiwiZGF0ZVN0cmluZyIsImRhdGUiLCJEYXRlIiwiZGF5IiwiZ2V0RGF0ZSIsIm1vbnRoIiwiZ2V0TW9udGgiLCJ5ZWFyIiwiZ2V0RnVsbFllYXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/functions/date/esthetic_date.ts\n");
+
+/***/ }),
+
+/***/ "./src/functions/date/right_date.ts":
+/*!******************************************!*\
+  !*** ./src/functions/date/right_date.ts ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getPastDate\": () => (/* binding */ getPastDate)\n/* harmony export */ });\n//this function gives us date in format: \"2022-12-29 14:16:37\"\nfunction getPastDate(days) {\n    const date = new Date();\n    date.setDate(date.getDate() + days);\n    const year = date.getFullYear();\n    const month = date.getMonth() + 1;\n    const day = date.getDate();\n    const hours = date.getHours();\n    const minutes = date.getMinutes();\n    const seconds = date.getSeconds();\n    return `${year}-${month.toString().padStart(2, \"0\")}-${day.toString().padStart(2, \"0\")} ${hours.toString().padStart(2, \"0\")}:${minutes.toString().padStart(2, \"0\")}:${seconds.toString().padStart(2, \"0\")}`;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL2RhdGUvcmlnaHRfZGF0ZS50cy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsOERBQThEO0FBQ3ZELFNBQVNBLFlBQVlDLElBQVcsRUFBRTtJQUN2QyxNQUFNQyxPQUFPLElBQUlDO0lBQ2pCRCxLQUFLRSxPQUFPLENBQUNGLEtBQUtHLE9BQU8sS0FBS0o7SUFDOUIsTUFBTUssT0FBT0osS0FBS0ssV0FBVztJQUM3QixNQUFNQyxRQUFRTixLQUFLTyxRQUFRLEtBQUs7SUFDaEMsTUFBTUMsTUFBTVIsS0FBS0csT0FBTztJQUN4QixNQUFNTSxRQUFRVCxLQUFLVSxRQUFRO0lBQzNCLE1BQU1DLFVBQVVYLEtBQUtZLFVBQVU7SUFDL0IsTUFBTUMsVUFBVWIsS0FBS2MsVUFBVTtJQUUvQixPQUFPLENBQUMsRUFBRVYsS0FBSyxDQUFDLEVBQUVFLE1BQU1TLFFBQVEsR0FBR0MsUUFBUSxDQUFDLEdBQUcsS0FBSyxDQUFDLEVBQUVSLElBQUlPLFFBQVEsR0FBR0MsUUFBUSxDQUFDLEdBQUcsS0FBSyxDQUFDLEVBQUVQLE1BQU1NLFFBQVEsR0FBR0MsUUFBUSxDQUFDLEdBQUcsS0FBSyxDQUFDLEVBQUVMLFFBQVFJLFFBQVEsR0FBR0MsUUFBUSxDQUFDLEdBQUcsS0FBSyxDQUFDLEVBQUVILFFBQVFFLFFBQVEsR0FBR0MsUUFBUSxDQUFDLEdBQUcsS0FBSyxDQUFDO0FBQzdNLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL2Z1bmN0aW9ucy9kYXRlL3JpZ2h0X2RhdGUudHM/NTA3OSJdLCJzb3VyY2VzQ29udGVudCI6WyIvL3RoaXMgZnVuY3Rpb24gZ2l2ZXMgdXMgZGF0ZSBpbiBmb3JtYXQ6IFwiMjAyMi0xMi0yOSAxNDoxNjozN1wiXG5leHBvcnQgZnVuY3Rpb24gZ2V0UGFzdERhdGUoZGF5czpudW1iZXIpIHtcbiAgY29uc3QgZGF0ZSA9IG5ldyBEYXRlKClcbiAgZGF0ZS5zZXREYXRlKGRhdGUuZ2V0RGF0ZSgpICsgZGF5cylcbiAgY29uc3QgeWVhciA9IGRhdGUuZ2V0RnVsbFllYXIoKVxuICBjb25zdCBtb250aCA9IGRhdGUuZ2V0TW9udGgoKSArIDEgXG4gIGNvbnN0IGRheSA9IGRhdGUuZ2V0RGF0ZSgpXG4gIGNvbnN0IGhvdXJzID0gZGF0ZS5nZXRIb3VycygpXG4gIGNvbnN0IG1pbnV0ZXMgPSBkYXRlLmdldE1pbnV0ZXMoKVxuICBjb25zdCBzZWNvbmRzID0gZGF0ZS5nZXRTZWNvbmRzKClcblxuICByZXR1cm4gYCR7eWVhcn0tJHttb250aC50b1N0cmluZygpLnBhZFN0YXJ0KDIsIFwiMFwiKX0tJHtkYXkudG9TdHJpbmcoKS5wYWRTdGFydCgyLCBcIjBcIil9ICR7aG91cnMudG9TdHJpbmcoKS5wYWRTdGFydCgyLCBcIjBcIil9OiR7bWludXRlcy50b1N0cmluZygpLnBhZFN0YXJ0KDIsIFwiMFwiKX06JHtzZWNvbmRzLnRvU3RyaW5nKCkucGFkU3RhcnQoMiwgXCIwXCIpfWBcbn0iXSwibmFtZXMiOlsiZ2V0UGFzdERhdGUiLCJkYXlzIiwiZGF0ZSIsIkRhdGUiLCJzZXREYXRlIiwiZ2V0RGF0ZSIsInllYXIiLCJnZXRGdWxsWWVhciIsIm1vbnRoIiwiZ2V0TW9udGgiLCJkYXkiLCJob3VycyIsImdldEhvdXJzIiwibWludXRlcyIsImdldE1pbnV0ZXMiLCJzZWNvbmRzIiwiZ2V0U2Vjb25kcyIsInRvU3RyaW5nIiwicGFkU3RhcnQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/functions/date/right_date.ts\n");
+
+/***/ }),
+
+/***/ "./src/functions/index.js":
+/*!********************************!*\
+  !*** ./src/functions/index.js ***!
+  \********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"capitalize\": () => (/* reexport safe */ _others_index_ts__WEBPACK_IMPORTED_MODULE_6__.capitalize),\n/* harmony export */   \"deleteRequest\": () => (/* reexport safe */ _api_delete_ts__WEBPACK_IMPORTED_MODULE_0__.deleteRequest),\n/* harmony export */   \"getEstheticDate\": () => (/* reexport safe */ _date_esthetic_date_ts__WEBPACK_IMPORTED_MODULE_4__.getEstheticDate),\n/* harmony export */   \"getPastDate\": () => (/* reexport safe */ _date_right_date_ts__WEBPACK_IMPORTED_MODULE_5__.getPastDate),\n/* harmony export */   \"getRequest\": () => (/* reexport safe */ _api_get_ts__WEBPACK_IMPORTED_MODULE_1__.getRequest),\n/* harmony export */   \"isOnlyLetters\": () => (/* reexport safe */ _others_index_ts__WEBPACK_IMPORTED_MODULE_6__.isOnlyLetters),\n/* harmony export */   \"postRequest\": () => (/* reexport safe */ _api_post_ts__WEBPACK_IMPORTED_MODULE_3__.postRequest),\n/* harmony export */   \"putRequest\": () => (/* reexport safe */ _api_put_ts__WEBPACK_IMPORTED_MODULE_2__.putRequest),\n/* harmony export */   \"sntz\": () => (/* reexport safe */ _others_index_ts__WEBPACK_IMPORTED_MODULE_6__.sntz)\n/* harmony export */ });\n/* harmony import */ var _api_delete_ts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api/delete.ts */ \"./src/functions/api/delete.ts\");\n/* harmony import */ var _api_get_ts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./api/get.ts */ \"./src/functions/api/get.ts\");\n/* harmony import */ var _api_put_ts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./api/put.ts */ \"./src/functions/api/put.ts\");\n/* harmony import */ var _api_post_ts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./api/post.ts */ \"./src/functions/api/post.ts\");\n/* harmony import */ var _date_esthetic_date_ts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./date/esthetic_date.ts */ \"./src/functions/date/esthetic_date.ts\");\n/* harmony import */ var _date_right_date_ts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./date/right_date.ts */ \"./src/functions/date/right_date.ts\");\n/* harmony import */ var _others_index_ts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./others/index.ts */ \"./src/functions/others/index.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_api_delete_ts__WEBPACK_IMPORTED_MODULE_0__, _api_get_ts__WEBPACK_IMPORTED_MODULE_1__, _api_put_ts__WEBPACK_IMPORTED_MODULE_2__, _api_post_ts__WEBPACK_IMPORTED_MODULE_3__]);\n([_api_delete_ts__WEBPACK_IMPORTED_MODULE_0__, _api_get_ts__WEBPACK_IMPORTED_MODULE_1__, _api_put_ts__WEBPACK_IMPORTED_MODULE_2__, _api_post_ts__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\n\n\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBK0M7QUFDTjtBQUNBO0FBQ0U7QUFFYztBQUNQO0FBQ2UiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL2Z1bmN0aW9ucy9pbmRleC5qcz82NjJhIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCB7IGRlbGV0ZVJlcXVlc3QgfSBmcm9tIFwiLi9hcGkvZGVsZXRlLnRzXCJcbmV4cG9ydCB7IGdldFJlcXVlc3QgfSBmcm9tIFwiLi9hcGkvZ2V0LnRzXCJcbmV4cG9ydCB7IHB1dFJlcXVlc3QgfSBmcm9tIFwiLi9hcGkvcHV0LnRzXCJcbmV4cG9ydCB7IHBvc3RSZXF1ZXN0IH0gZnJvbSBcIi4vYXBpL3Bvc3QudHNcIlxuXG5leHBvcnQgeyBnZXRFc3RoZXRpY0RhdGUgfSBmcm9tIFwiLi9kYXRlL2VzdGhldGljX2RhdGUudHNcIlxuZXhwb3J0IHsgZ2V0UGFzdERhdGUgfSBmcm9tIFwiLi9kYXRlL3JpZ2h0X2RhdGUudHNcIlxuZXhwb3J0IHsgc250eixjYXBpdGFsaXplLGlzT25seUxldHRlcnMgfSBmcm9tIFwiLi9vdGhlcnMvaW5kZXgudHNcIlxuIl0sIm5hbWVzIjpbImRlbGV0ZVJlcXVlc3QiLCJnZXRSZXF1ZXN0IiwicHV0UmVxdWVzdCIsInBvc3RSZXF1ZXN0IiwiZ2V0RXN0aGV0aWNEYXRlIiwiZ2V0UGFzdERhdGUiLCJzbnR6IiwiY2FwaXRhbGl6ZSIsImlzT25seUxldHRlcnMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/functions/index.js\n");
+
+/***/ }),
+
+/***/ "./src/functions/others/index.ts":
+/*!***************************************!*\
+  !*** ./src/functions/others/index.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"capitalize\": () => (/* binding */ capitalize),\n/* harmony export */   \"isOnlyLetters\": () => (/* binding */ isOnlyLetters),\n/* harmony export */   \"sntz\": () => (/* binding */ sntz)\n/* harmony export */ });\n/* harmony import */ var dompurify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dompurify */ \"dompurify\");\n/* harmony import */ var dompurify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(dompurify__WEBPACK_IMPORTED_MODULE_0__);\n\nconst sntz = (thing)=>{\n    return dompurify__WEBPACK_IMPORTED_MODULE_0___default().sanitize(thing);\n};\nconst isOnlyLetters = (word)=>{\n    return /^[a-zA-ZěŠšČčŘřŽžÝýÍíÁáÉéŮůÚú]+$/.test(word);\n};\nconst capitalize = (word)=>{\n    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZnVuY3Rpb25zL290aGVycy9pbmRleC50cy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFpQztBQUUxQixNQUFNQyxPQUFPLENBQUNDLFFBQVk7SUFDL0IsT0FBT0YseURBQWtCLENBQUNFO0FBQzVCLEVBQUM7QUFFTSxNQUFNRSxnQkFBZ0IsQ0FBQ0MsT0FBZTtJQUMzQyxPQUFPLG1DQUFtQ0MsSUFBSSxDQUFDRDtBQUNqRCxFQUFDO0FBRU0sTUFBTUUsYUFBYSxDQUFDRixPQUFjO0lBQ3ZDLE9BQU9BLEtBQUtHLE1BQU0sQ0FBQyxHQUFHQyxXQUFXLEtBQUtKLEtBQUtLLEtBQUssQ0FBQyxHQUFHQyxXQUFXO0FBQ2pFLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL2Z1bmN0aW9ucy9vdGhlcnMvaW5kZXgudHM/MGJmZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgRE9NUHVyaWZ5IGZyb20gXCJkb21wdXJpZnlcIlxuXG5leHBvcnQgY29uc3Qgc250eiA9ICh0aGluZzphbnkpPT57IC8vZnVuY3Rpb24gdGhhdCBzYW5pdGl6ZXMgaW5wdXRzIGFnYWluc3QgWFhTIGF0dGFja3NcbiAgcmV0dXJuKERPTVB1cmlmeS5zYW5pdGl6ZSh0aGluZykpXG59XG5cbmV4cG9ydCBjb25zdCBpc09ubHlMZXR0ZXJzID0gKHdvcmQ6c3RyaW5nKSA9PntcbiAgcmV0dXJuIC9eW2EtekEtWsSbxaDFocSMxI3FmMWZxb3FvsOdw73DjcOtw4HDocOJw6nFrsWvw5rDul0rJC8udGVzdCh3b3JkKVxufVxuXG5leHBvcnQgY29uc3QgY2FwaXRhbGl6ZSA9ICh3b3JkOnN0cmluZyk9PntcbiAgcmV0dXJuKHdvcmQuY2hhckF0KDApLnRvVXBwZXJDYXNlKCkgKyB3b3JkLnNsaWNlKDEpLnRvTG93ZXJDYXNlKCkpXG59Il0sIm5hbWVzIjpbIkRPTVB1cmlmeSIsInNudHoiLCJ0aGluZyIsInNhbml0aXplIiwiaXNPbmx5TGV0dGVycyIsIndvcmQiLCJ0ZXN0IiwiY2FwaXRhbGl6ZSIsImNoYXJBdCIsInRvVXBwZXJDYXNlIiwic2xpY2UiLCJ0b0xvd2VyQ2FzZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/functions/others/index.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/actions/index.ts":
+/*!************************************!*\
+  !*** ./src/store/actions/index.ts ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addSingleRecord\": () => (/* binding */ addSingleRecord),\n/* harmony export */   \"addSingleTag\": () => (/* binding */ addSingleTag),\n/* harmony export */   \"addSingleUser\": () => (/* binding */ addSingleUser),\n/* harmony export */   \"removeSingleRecord\": () => (/* binding */ removeSingleRecord),\n/* harmony export */   \"removeSingleTag\": () => (/* binding */ removeSingleTag),\n/* harmony export */   \"removeSingleUser\": () => (/* binding */ removeSingleUser),\n/* harmony export */   \"setPage\": () => (/* binding */ setPage),\n/* harmony export */   \"setRecords\": () => (/* binding */ setRecords),\n/* harmony export */   \"setTags\": () => (/* binding */ setTags),\n/* harmony export */   \"setUsers\": () => (/* binding */ setUsers),\n/* harmony export */   \"sortEntriesFromHighestRating\": () => (/* binding */ sortEntriesFromHighestRating),\n/* harmony export */   \"sortEntriesFromLongest\": () => (/* binding */ sortEntriesFromLongest),\n/* harmony export */   \"sortEntriesFromLowestRating\": () => (/* binding */ sortEntriesFromLowestRating),\n/* harmony export */   \"sortEntriesFromNewest\": () => (/* binding */ sortEntriesFromNewest),\n/* harmony export */   \"sortEntriesFromOldest\": () => (/* binding */ sortEntriesFromOldest),\n/* harmony export */   \"sortEntriesFromShortest\": () => (/* binding */ sortEntriesFromShortest),\n/* harmony export */   \"toggleMode\": () => (/* binding */ toggleMode),\n/* harmony export */   \"toggleSidebarVisbility\": () => (/* binding */ toggleSidebarVisbility),\n/* harmony export */   \"updateSingleRecord\": () => (/* binding */ updateSingleRecord),\n/* harmony export */   \"updateSingleTag\": () => (/* binding */ updateSingleTag),\n/* harmony export */   \"updateSingleUser\": () => (/* binding */ updateSingleUser)\n/* harmony export */ });\n//RECORDS ACTIONS\nconst setRecords = (records)=>{\n    return {\n        type: \"SET_RECORDS\",\n        records: records\n    };\n};\nconst addSingleRecord = (newrecord)=>{\n    return {\n        type: \"ADD_RECORD\",\n        newrecord: newrecord\n    };\n};\nconst removeSingleRecord = (deletedrecord_id)=>{\n    return {\n        type: \"REMOVE_RECORD\",\n        deletedrecord_id: deletedrecord_id\n    };\n};\nconst updateSingleRecord = (updatedrecord_id, newrecord)=>{\n    return {\n        type: \"UPDATE_RECORD\",\n        updatedrecord_id: updatedrecord_id,\n        newrecord: newrecord\n    };\n};\nconst sortEntriesFromOldest = ()=>{\n    return {\n        type: \"SORT_RECORDS_FROM_OLDEST\"\n    };\n};\nconst sortEntriesFromNewest = ()=>{\n    return {\n        type: \"SORT_RECORDS_FROM_NEWEST\"\n    };\n};\nconst sortEntriesFromLowestRating = ()=>{\n    return {\n        type: \"SORT_RECORDS_FROM_LOWEST_RATING\"\n    };\n};\nconst sortEntriesFromHighestRating = ()=>{\n    return {\n        type: \"SORT_RECORDS_FROM_HIGHEST_RATING\"\n    };\n};\nconst sortEntriesFromShortest = ()=>{\n    return {\n        type: \"SORT_RECORDS_FROM_SHORTEST\"\n    };\n};\nconst sortEntriesFromLongest = ()=>{\n    return {\n        type: \"SORT_RECORDS_FROM_LONGEST\"\n    };\n};\n//SIDEBAR ACTIONS\nconst toggleSidebarVisbility = ()=>{\n    return {\n        type: \"TOGGLE_VISIBILITY\"\n    };\n};\n//USERS ACTIONS\nconst setUsers = (users)=>{\n    return {\n        type: \"SET_USERS\",\n        users: users\n    };\n};\nconst addSingleUser = (newuser)=>{\n    return {\n        type: \"ADD_USER\",\n        newuser: newuser\n    };\n};\nconst removeSingleUser = (deleteduser_id)=>{\n    return {\n        type: \"REMOVE_USER\",\n        deleteduser_id: deleteduser_id\n    };\n};\nconst updateSingleUser = (updated_user_id, newrecord)=>{\n    return {\n        type: \"UPDATE_USER\",\n        updated_user_id: updated_user_id,\n        newrecord: newrecord\n    };\n};\n//TAGS ACTIONS\nconst setTags = (tags)=>{\n    return {\n        type: \"SET_TAGS\",\n        tags: tags\n    };\n};\nconst addSingleTag = (newtag)=>{\n    return {\n        type: \"ADD_TAG\",\n        newtag: newtag\n    };\n};\nconst removeSingleTag = (deleted_tag_id)=>{\n    return {\n        type: \"REMOVE_TAG\",\n        deleted_tag_id: deleted_tag_id\n    };\n};\nconst updateSingleTag = (updated_tag_id, new_tag)=>{\n    return {\n        type: \"UPDATE_TAG\",\n        updated_tag_id: updated_tag_id,\n        new_tag: new_tag\n    };\n};\n//PAGE ACTIONS\nconst setPage = (page)=>{\n    return {\n        type: \"SET_PAGE\",\n        page: page\n    };\n};\n//MODE ACTIONS\nconst toggleMode = ()=>{\n    return {\n        type: \"TOGGLE_DARK_MODE\"\n    };\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvYWN0aW9ucy9pbmRleC50cy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJQSxpQkFBaUI7QUFFVixNQUFNQSxhQUFhLENBQUNDLFVBQTBDO0lBQ25FLE9BQU87UUFDTEMsTUFBTTtRQUNORCxTQUFRQTtJQUNWO0FBQ0YsRUFBQztBQUVNLE1BQU1FLGtCQUFrQixDQUFDQyxZQUFxQztJQUNuRSxPQUFPO1FBQ0xGLE1BQU07UUFDTkUsV0FBVUE7SUFDWjtBQUNGLEVBQUM7QUFFTSxNQUFNQyxxQkFBcUIsQ0FBQ0MsbUJBQXVDO0lBQ3hFLE9BQU87UUFDTEosTUFBTTtRQUNOSSxrQkFBaUJBO0lBQ25CO0FBQ0YsRUFBQztBQUVNLE1BQU1DLHFCQUFxQixDQUFDQyxrQkFBd0JKLFlBQXFDO0lBQzlGLE9BQU87UUFDTEYsTUFBTTtRQUNOTSxrQkFBaUJBO1FBQ2pCSixXQUFVQTtJQUNaO0FBQ0YsRUFBQztBQUVNLE1BQU1LLHdCQUF3QixJQUFpQjtJQUNwRCxPQUFPO1FBQ0xQLE1BQU07SUFDUjtBQUNGLEVBQUM7QUFFTSxNQUFNUSx3QkFBd0IsSUFBaUI7SUFDcEQsT0FBTztRQUNMUixNQUFNO0lBQ1I7QUFDRixFQUFDO0FBRU0sTUFBTVMsOEJBQThCLElBQWlCO0lBQzFELE9BQU87UUFDTFQsTUFBTTtJQUNSO0FBQ0YsRUFBQztBQUVNLE1BQU1VLCtCQUErQixJQUFpQjtJQUMzRCxPQUFPO1FBQ0xWLE1BQU07SUFDUjtBQUNGLEVBQUM7QUFFTSxNQUFNVywwQkFBMEIsSUFBaUI7SUFDdEQsT0FBTztRQUNMWCxNQUFNO0lBQ1I7QUFDRixFQUFDO0FBRU0sTUFBTVkseUJBQXlCLElBQWlCO0lBQ3JELE9BQU87UUFDTFosTUFBTTtJQUNSO0FBQ0YsRUFBQztBQUVELGlCQUFpQjtBQUVWLE1BQU1hLHlCQUF5QixJQUFpQjtJQUNyRCxPQUFPO1FBQ0xiLE1BQU07SUFDUjtBQUNGLEVBQUM7QUFFRCxlQUFlO0FBRVIsTUFBTWMsV0FBVyxDQUFDQyxRQUFrQztJQUN6RCxPQUFPO1FBQ0xmLE1BQU07UUFDTmUsT0FBTUE7SUFDUjtBQUNGLEVBQUM7QUFFTSxNQUFNQyxnQkFBZ0IsQ0FBQ0MsVUFBNEI7SUFDeEQsT0FBTztRQUNMakIsTUFBTTtRQUNOaUIsU0FBUUE7SUFDVjtBQUNGLEVBQUM7QUFFTSxNQUFNQyxtQkFBbUIsQ0FBQ0MsaUJBQXFDO0lBQ3BFLE9BQU87UUFDTG5CLE1BQU07UUFDTm1CLGdCQUFlQTtJQUNqQjtBQUNGLEVBQUM7QUFFTSxNQUFNQyxtQkFBbUIsQ0FBQ0MsaUJBQXVCbkIsWUFBK0I7SUFDckYsT0FBTztRQUNMRixNQUFNO1FBQ05xQixpQkFBZ0JBO1FBQ2hCbkIsV0FBVUE7SUFDWjtBQUNGLEVBQUM7QUFFRCxjQUFjO0FBRVAsTUFBTW9CLFVBQVUsQ0FBQ0MsT0FBZ0M7SUFDdEQsT0FBTztRQUNMdkIsTUFBTTtRQUNOdUIsTUFBS0E7SUFDUDtBQUNGLEVBQUM7QUFFTSxNQUFNQyxlQUFlLENBQUNDLFNBQTBCO0lBQ3JELE9BQU87UUFDTHpCLE1BQU07UUFDTnlCLFFBQU9BO0lBQ1Q7QUFDRixFQUFDO0FBRU0sTUFBTUMsa0JBQWtCLENBQUNDLGlCQUFxQztJQUNuRSxPQUFPO1FBQ0wzQixNQUFNO1FBQ04yQixnQkFBZUE7SUFDakI7QUFDRixFQUFDO0FBRU0sTUFBTUMsa0JBQWtCLENBQUNDLGdCQUFzQkMsVUFBNEI7SUFDaEYsT0FBTztRQUNMOUIsTUFBTTtRQUNONkIsZ0JBQWVBO1FBQ2ZDLFNBQVFBO0lBQ1Y7QUFDRixFQUFDO0FBRUQsY0FBYztBQUNQLE1BQU1DLFVBQVUsQ0FBQ0MsT0FBeUI7SUFDL0MsT0FBTztRQUNMaEMsTUFBTTtRQUNOZ0MsTUFBS0E7SUFDUDtBQUNGLEVBQUM7QUFFRCxjQUFjO0FBQ1AsTUFBTUMsYUFBYSxJQUFpQjtJQUN6QyxPQUFPO1FBQ0xqQyxNQUFNO0lBQ1I7QUFDRixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZG9uZXJvLWFwcC8uL3NyYy9zdG9yZS9hY3Rpb25zL2luZGV4LnRzP2YxNDkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSURpYXJ5RW50cnksIElUYWcsIElVc2VyIH0gZnJvbSBcIi4uLy4uL3R5cGVzXCJcbmltcG9ydCB7IEFueUFjdGlvbiB9IGZyb20gXCJyZWR1eFwiXG5pbXBvcnQgeyBQYWdlIH0gZnJvbSBcIi4uL3JlZHVjZXJzL3BhZ2VfcmVkdWNlclwiXG5cbi8vUkVDT1JEUyBBQ1RJT05TXG5cbmV4cG9ydCBjb25zdCBzZXRSZWNvcmRzID0gKHJlY29yZHM6QXJyYXk8SURpYXJ5RW50cnk+KTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlNFVF9SRUNPUkRTXCIsXG4gICAgcmVjb3JkczpyZWNvcmRzXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IGFkZFNpbmdsZVJlY29yZCA9IChuZXdyZWNvcmQ6SURpYXJ5RW50cnkpOiBBbnlBY3Rpb24gPT4ge1xuICByZXR1cm4ge1xuICAgIHR5cGU6IFwiQUREX1JFQ09SRFwiLFxuICAgIG5ld3JlY29yZDpuZXdyZWNvcmRcbiAgfVxufVxuXG5leHBvcnQgY29uc3QgcmVtb3ZlU2luZ2xlUmVjb3JkID0gKGRlbGV0ZWRyZWNvcmRfaWQ6bnVtYmVyKTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlJFTU9WRV9SRUNPUkRcIixcbiAgICBkZWxldGVkcmVjb3JkX2lkOmRlbGV0ZWRyZWNvcmRfaWRcbiAgfVxufVxuXG5leHBvcnQgY29uc3QgdXBkYXRlU2luZ2xlUmVjb3JkID0gKHVwZGF0ZWRyZWNvcmRfaWQ6bnVtYmVyLG5ld3JlY29yZDpJRGlhcnlFbnRyeSk6IEFueUFjdGlvbiA9PiB7XG4gIHJldHVybiB7XG4gICAgdHlwZTogXCJVUERBVEVfUkVDT1JEXCIsXG4gICAgdXBkYXRlZHJlY29yZF9pZDp1cGRhdGVkcmVjb3JkX2lkLFxuICAgIG5ld3JlY29yZDpuZXdyZWNvcmRcbiAgfVxufVxuXG5leHBvcnQgY29uc3Qgc29ydEVudHJpZXNGcm9tT2xkZXN0ID0gKCk6IEFueUFjdGlvbiA9PiB7XG4gIHJldHVybiB7XG4gICAgdHlwZTogXCJTT1JUX1JFQ09SRFNfRlJPTV9PTERFU1RcIlxuICB9XG59XG5cbmV4cG9ydCBjb25zdCBzb3J0RW50cmllc0Zyb21OZXdlc3QgPSAoKTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlNPUlRfUkVDT1JEU19GUk9NX05FV0VTVFwiXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IHNvcnRFbnRyaWVzRnJvbUxvd2VzdFJhdGluZyA9ICgpOiBBbnlBY3Rpb24gPT4ge1xuICByZXR1cm4ge1xuICAgIHR5cGU6IFwiU09SVF9SRUNPUkRTX0ZST01fTE9XRVNUX1JBVElOR1wiXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IHNvcnRFbnRyaWVzRnJvbUhpZ2hlc3RSYXRpbmcgPSAoKTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlNPUlRfUkVDT1JEU19GUk9NX0hJR0hFU1RfUkFUSU5HXCJcbiAgfVxufVxuXG5leHBvcnQgY29uc3Qgc29ydEVudHJpZXNGcm9tU2hvcnRlc3QgPSAoKTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlNPUlRfUkVDT1JEU19GUk9NX1NIT1JURVNUXCJcbiAgfVxufVxuXG5leHBvcnQgY29uc3Qgc29ydEVudHJpZXNGcm9tTG9uZ2VzdCA9ICgpOiBBbnlBY3Rpb24gPT4ge1xuICByZXR1cm4ge1xuICAgIHR5cGU6IFwiU09SVF9SRUNPUkRTX0ZST01fTE9OR0VTVFwiXG4gIH1cbn1cblxuLy9TSURFQkFSIEFDVElPTlNcblxuZXhwb3J0IGNvbnN0IHRvZ2dsZVNpZGViYXJWaXNiaWxpdHkgPSAoKTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlRPR0dMRV9WSVNJQklMSVRZXCJcbiAgfVxufVxuXG4vL1VTRVJTIEFDVElPTlNcblxuZXhwb3J0IGNvbnN0IHNldFVzZXJzID0gKHVzZXJzOkFycmF5PElVc2VyPik6IEFueUFjdGlvbiA9PiB7XG4gIHJldHVybiB7XG4gICAgdHlwZTogXCJTRVRfVVNFUlNcIixcbiAgICB1c2Vyczp1c2Vyc1xuICB9XG59XG5cbmV4cG9ydCBjb25zdCBhZGRTaW5nbGVVc2VyID0gKG5ld3VzZXI6SVVzZXIpOiBBbnlBY3Rpb24gPT57XG4gIHJldHVybiB7XG4gICAgdHlwZTogXCJBRERfVVNFUlwiLFxuICAgIG5ld3VzZXI6bmV3dXNlclxuICB9XG59XG5cbmV4cG9ydCBjb25zdCByZW1vdmVTaW5nbGVVc2VyID0gKGRlbGV0ZWR1c2VyX2lkOm51bWJlcik6IEFueUFjdGlvbiA9PiB7XG4gIHJldHVybiB7XG4gICAgdHlwZTogXCJSRU1PVkVfVVNFUlwiLFxuICAgIGRlbGV0ZWR1c2VyX2lkOmRlbGV0ZWR1c2VyX2lkXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IHVwZGF0ZVNpbmdsZVVzZXIgPSAodXBkYXRlZF91c2VyX2lkOm51bWJlcixuZXdyZWNvcmQ6SVVzZXIpOiBBbnlBY3Rpb24gPT4ge1xuICByZXR1cm4ge1xuICAgIHR5cGU6IFwiVVBEQVRFX1VTRVJcIixcbiAgICB1cGRhdGVkX3VzZXJfaWQ6dXBkYXRlZF91c2VyX2lkLFxuICAgIG5ld3JlY29yZDpuZXdyZWNvcmRcbiAgfVxufVxuXG4vL1RBR1MgQUNUSU9OU1xuXG5leHBvcnQgY29uc3Qgc2V0VGFncyA9ICh0YWdzOkFycmF5PElUYWc+KTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlNFVF9UQUdTXCIsXG4gICAgdGFnczp0YWdzXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IGFkZFNpbmdsZVRhZyA9IChuZXd0YWc6SVRhZyk6IEFueUFjdGlvbiA9PntcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIkFERF9UQUdcIixcbiAgICBuZXd0YWc6bmV3dGFnXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IHJlbW92ZVNpbmdsZVRhZyA9IChkZWxldGVkX3RhZ19pZDpudW1iZXIpOiBBbnlBY3Rpb24gPT4ge1xuICByZXR1cm4ge1xuICAgIHR5cGU6IFwiUkVNT1ZFX1RBR1wiLFxuICAgIGRlbGV0ZWRfdGFnX2lkOmRlbGV0ZWRfdGFnX2lkXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IHVwZGF0ZVNpbmdsZVRhZyA9ICh1cGRhdGVkX3RhZ19pZDpudW1iZXIsbmV3X3RhZzpJVGFnKTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlVQREFURV9UQUdcIixcbiAgICB1cGRhdGVkX3RhZ19pZDp1cGRhdGVkX3RhZ19pZCxcbiAgICBuZXdfdGFnOm5ld190YWdcbiAgfVxufVxuXG4vL1BBR0UgQUNUSU9OU1xuZXhwb3J0IGNvbnN0IHNldFBhZ2UgPSAocGFnZTpQYWdlKTogQW55QWN0aW9uID0+IHtcbiAgcmV0dXJuIHtcbiAgICB0eXBlOiBcIlNFVF9QQUdFXCIsXG4gICAgcGFnZTpwYWdlXG4gIH1cbn1cblxuLy9NT0RFIEFDVElPTlNcbmV4cG9ydCBjb25zdCB0b2dnbGVNb2RlID0gKCk6IEFueUFjdGlvbiA9PiB7XG4gIHJldHVybiB7XG4gICAgdHlwZTogXCJUT0dHTEVfREFSS19NT0RFXCJcbiAgfVxufSJdLCJuYW1lcyI6WyJzZXRSZWNvcmRzIiwicmVjb3JkcyIsInR5cGUiLCJhZGRTaW5nbGVSZWNvcmQiLCJuZXdyZWNvcmQiLCJyZW1vdmVTaW5nbGVSZWNvcmQiLCJkZWxldGVkcmVjb3JkX2lkIiwidXBkYXRlU2luZ2xlUmVjb3JkIiwidXBkYXRlZHJlY29yZF9pZCIsInNvcnRFbnRyaWVzRnJvbU9sZGVzdCIsInNvcnRFbnRyaWVzRnJvbU5ld2VzdCIsInNvcnRFbnRyaWVzRnJvbUxvd2VzdFJhdGluZyIsInNvcnRFbnRyaWVzRnJvbUhpZ2hlc3RSYXRpbmciLCJzb3J0RW50cmllc0Zyb21TaG9ydGVzdCIsInNvcnRFbnRyaWVzRnJvbUxvbmdlc3QiLCJ0b2dnbGVTaWRlYmFyVmlzYmlsaXR5Iiwic2V0VXNlcnMiLCJ1c2VycyIsImFkZFNpbmdsZVVzZXIiLCJuZXd1c2VyIiwicmVtb3ZlU2luZ2xlVXNlciIsImRlbGV0ZWR1c2VyX2lkIiwidXBkYXRlU2luZ2xlVXNlciIsInVwZGF0ZWRfdXNlcl9pZCIsInNldFRhZ3MiLCJ0YWdzIiwiYWRkU2luZ2xlVGFnIiwibmV3dGFnIiwicmVtb3ZlU2luZ2xlVGFnIiwiZGVsZXRlZF90YWdfaWQiLCJ1cGRhdGVTaW5nbGVUYWciLCJ1cGRhdGVkX3RhZ19pZCIsIm5ld190YWciLCJzZXRQYWdlIiwicGFnZSIsInRvZ2dsZU1vZGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/store/actions/index.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/reducers/dark_mode_reducer.ts":
+/*!*************************************************!*\
+  !*** ./src/store/reducers/dark_mode_reducer.ts ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"darkModeReducer\": () => (/* binding */ darkModeReducer)\n/* harmony export */ });\nconst darkModeReducer = (state = false, action)=>{\n    switch(action.type){\n        case \"TOGGLE_DARK_MODE\":\n            {\n                return !state;\n            }\n        default:\n            return state;\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvcmVkdWNlcnMvZGFya19tb2RlX3JlZHVjZXIudHMuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFPLE1BQU1BLGtCQUFrQixDQUFDQyxRQUFNLEtBQUssRUFBRUMsU0FBZTtJQUMxRCxPQUFRQSxPQUFPQyxJQUFJO1FBQ25CLEtBQUs7WUFBbUI7Z0JBQ3RCLE9BQVEsQ0FBQ0Y7WUFDWDtRQUNBO1lBQ0UsT0FBT0E7SUFDVDtBQUNGLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL3N0b3JlL3JlZHVjZXJzL2RhcmtfbW9kZV9yZWR1Y2VyLnRzP2RjODMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGRhcmtNb2RlUmVkdWNlciA9IChzdGF0ZT1mYWxzZSwgYWN0aW9uOmFueSkgPT4ge1xuICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG4gIGNhc2UgXCJUT0dHTEVfREFSS19NT0RFXCI6e1xuICAgIHJldHVybiAoIXN0YXRlKVxuICB9XG4gIGRlZmF1bHQ6XG4gICAgcmV0dXJuIHN0YXRlXG4gIH1cbn0iXSwibmFtZXMiOlsiZGFya01vZGVSZWR1Y2VyIiwic3RhdGUiLCJhY3Rpb24iLCJ0eXBlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/store/reducers/dark_mode_reducer.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/reducers/index.ts":
+/*!*************************************!*\
+  !*** ./src/store/reducers/index.ts ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _records_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./records_reducer */ \"./src/store/reducers/records_reducer.ts\");\n/* harmony import */ var _sidebar_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sidebar_reducer */ \"./src/store/reducers/sidebar_reducer.ts\");\n/* harmony import */ var _users_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./users_reducer */ \"./src/store/reducers/users_reducer.ts\");\n/* harmony import */ var _tags_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./tags_reducer */ \"./src/store/reducers/tags_reducer.ts\");\n/* harmony import */ var _page_reducer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./page_reducer */ \"./src/store/reducers/page_reducer.ts\");\n/* harmony import */ var _dark_mode_reducer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dark_mode_reducer */ \"./src/store/reducers/dark_mode_reducer.ts\");\n\n\n\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers)({\n    records: _records_reducer__WEBPACK_IMPORTED_MODULE_1__.recordsReducer,\n    sidebar: _sidebar_reducer__WEBPACK_IMPORTED_MODULE_2__.sidebarReducer,\n    users: _users_reducer__WEBPACK_IMPORTED_MODULE_3__.usersReducer,\n    tags: _tags_reducer__WEBPACK_IMPORTED_MODULE_4__.tagsReducer,\n    page: _page_reducer__WEBPACK_IMPORTED_MODULE_5__.pageReducer,\n    mode: _dark_mode_reducer__WEBPACK_IMPORTED_MODULE_6__.darkModeReducer\n}));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvcmVkdWNlcnMvaW5kZXgudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQXVDO0FBQ1c7QUFDQTtBQUNKO0FBQ0Y7QUFDQTtBQUNTO0FBRXJELGlFQUFlQSxzREFBZUEsQ0FBQztJQUM3Qk8sU0FBU04sNERBQWNBO0lBQ3ZCTyxTQUFTTiw0REFBY0E7SUFDdkJPLE9BQU9OLHdEQUFZQTtJQUNuQk8sTUFBTU4sc0RBQVdBO0lBQ2pCTyxNQUFNTixzREFBV0E7SUFDakJPLE1BQU1OLCtEQUFlQTtBQUN2QixFQUFFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZG9uZXJvLWFwcC8uL3NyYy9zdG9yZS9yZWR1Y2Vycy9pbmRleC50cz82Yjc3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNvbWJpbmVSZWR1Y2VycyB9IGZyb20gXCJyZWR1eFwiXG5pbXBvcnQgeyByZWNvcmRzUmVkdWNlciB9IGZyb20gXCIuL3JlY29yZHNfcmVkdWNlclwiXG5pbXBvcnQgeyBzaWRlYmFyUmVkdWNlciB9IGZyb20gXCIuL3NpZGViYXJfcmVkdWNlclwiXG5pbXBvcnQgeyB1c2Vyc1JlZHVjZXIgfSBmcm9tIFwiLi91c2Vyc19yZWR1Y2VyXCJcbmltcG9ydCB7IHRhZ3NSZWR1Y2VyIH0gZnJvbSBcIi4vdGFnc19yZWR1Y2VyXCJcbmltcG9ydCB7IHBhZ2VSZWR1Y2VyIH0gZnJvbSBcIi4vcGFnZV9yZWR1Y2VyXCJcbmltcG9ydCB7IGRhcmtNb2RlUmVkdWNlciB9IGZyb20gXCIuL2RhcmtfbW9kZV9yZWR1Y2VyXCJcblxuZXhwb3J0IGRlZmF1bHQgY29tYmluZVJlZHVjZXJzKHtcbiAgcmVjb3JkczogcmVjb3Jkc1JlZHVjZXIsXG4gIHNpZGViYXI6IHNpZGViYXJSZWR1Y2VyLFxuICB1c2VyczogdXNlcnNSZWR1Y2VyLFxuICB0YWdzOiB0YWdzUmVkdWNlcixcbiAgcGFnZTogcGFnZVJlZHVjZXIsXG4gIG1vZGU6IGRhcmtNb2RlUmVkdWNlcixcbn0pIl0sIm5hbWVzIjpbImNvbWJpbmVSZWR1Y2VycyIsInJlY29yZHNSZWR1Y2VyIiwic2lkZWJhclJlZHVjZXIiLCJ1c2Vyc1JlZHVjZXIiLCJ0YWdzUmVkdWNlciIsInBhZ2VSZWR1Y2VyIiwiZGFya01vZGVSZWR1Y2VyIiwicmVjb3JkcyIsInNpZGViYXIiLCJ1c2VycyIsInRhZ3MiLCJwYWdlIiwibW9kZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/store/reducers/index.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/reducers/page_reducer.ts":
+/*!********************************************!*\
+  !*** ./src/store/reducers/page_reducer.ts ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"pageReducer\": () => (/* binding */ pageReducer)\n/* harmony export */ });\nconst pageReducer = (state = \"home\", action)=>{\n    switch(action.type){\n        case \"SET_PAGE\":\n            {\n                return action.page;\n            }\n        default:\n            return state;\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvcmVkdWNlcnMvcGFnZV9yZWR1Y2VyLnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFFTyxNQUFNQSxjQUFjLENBQUNDLFFBQVcsTUFBTSxFQUFFQyxTQUFlO0lBQzVELE9BQVFBLE9BQU9DLElBQUk7UUFDbkIsS0FBSztZQUFXO2dCQUNkLE9BQVFELE9BQU9FLElBQUk7WUFDckI7UUFDQTtZQUNFLE9BQU9IO0lBQ1Q7QUFDRixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZG9uZXJvLWFwcC8uL3NyYy9zdG9yZS9yZWR1Y2Vycy9wYWdlX3JlZHVjZXIudHM/OWE0YSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgdHlwZSBQYWdlID0gXCJob21lXCJ8XCJhbGxfZW50cmllc1wifFwidXNlcnNcInxcInRhZ3NcIlxuXG5leHBvcnQgY29uc3QgcGFnZVJlZHVjZXIgPSAoc3RhdGU6UGFnZT1cImhvbWVcIiwgYWN0aW9uOmFueSkgPT4ge1xuICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG4gIGNhc2UgXCJTRVRfUEFHRVwiOntcbiAgICByZXR1cm4gKGFjdGlvbi5wYWdlKVxuICB9XG4gIGRlZmF1bHQ6XG4gICAgcmV0dXJuIHN0YXRlXG4gIH1cbn0iXSwibmFtZXMiOlsicGFnZVJlZHVjZXIiLCJzdGF0ZSIsImFjdGlvbiIsInR5cGUiLCJwYWdlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/store/reducers/page_reducer.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/reducers/records_reducer.ts":
+/*!***********************************************!*\
+  !*** ./src/store/reducers/records_reducer.ts ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"recordsReducer\": () => (/* binding */ recordsReducer)\n/* harmony export */ });\nconst recordsReducer = (state = [], action)=>{\n    switch(action.type){\n        case \"SET_RECORDS\":\n            {\n                return action.records ? action.records : [];\n            }\n        case \"ADD_RECORD\":\n            {\n                return [\n                    action.newrecord,\n                    ...state\n                ];\n            }\n        case \"REMOVE_RECORD\":\n            {\n                return state.filter((record)=>record.id !== action.deletedrecord_id);\n            }\n        case \"UPDATE_RECORD\":\n            {\n                return state.map((record)=>record.id !== action.updatedrecord_id ? record : action.newrecord);\n            }\n        case \"SORT_RECORDS_FROM_OLDEST\":\n            {\n                return state.sort((a, b)=>new Date(a.datetime).toISOString().localeCompare(new Date(b.datetime).toISOString()));\n            }\n        case \"SORT_RECORDS_FROM_NEWEST\":\n            {\n                return state.sort((a, b)=>new Date(b.datetime).toISOString().localeCompare(new Date(a.datetime).toISOString()));\n            }\n        case \"SORT_RECORDS_FROM_LOWEST_RATING\":\n            {\n                return state.sort((a, b)=>a.rating - b.rating);\n            }\n        case \"SORT_RECORDS_FROM_HIGHEST_RATING\":\n            {\n                return state.sort((a, b)=>b.rating - a.rating);\n            }\n        case \"SORT_RECORDS_FROM_SHORTEST\":\n            {\n                return state.sort((a, b)=>a.minutes_spent - b.minutes_spent);\n            }\n        case \"SORT_RECORDS_FROM_LONGEST\":\n            {\n                return state.sort((a, b)=>b.minutes_spent - a.minutes_spent);\n            }\n        default:\n            return state;\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvcmVkdWNlcnMvcmVjb3Jkc19yZWR1Y2VyLnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFFTyxNQUFNQSxpQkFBaUIsQ0FBQ0MsUUFBc0IsRUFBRSxFQUFFQyxTQUFlO0lBQ3RFLE9BQVFBLE9BQU9DLElBQUk7UUFDbkIsS0FBSztZQUFjO2dCQUNqQixPQUFRRCxPQUFPRSxPQUFPLEdBQUNGLE9BQU9FLE9BQU8sR0FBQyxFQUFFO1lBQzFDO1FBQ0EsS0FBSztZQUFhO2dCQUNoQixPQUFRO29CQUFDRixPQUFPRyxTQUFTO3VCQUFJSjtpQkFBTTtZQUNyQztRQUNBLEtBQUs7WUFBZ0I7Z0JBQ25CLE9BQU9BLE1BQU1LLE1BQU0sQ0FBQyxDQUFDQyxTQUF1QkEsT0FBT0MsRUFBRSxLQUFLTixPQUFPTyxnQkFBZ0I7WUFDbkY7UUFDQSxLQUFLO1lBQWdCO2dCQUNuQixPQUFPUixNQUFNUyxHQUFHLENBQUMsQ0FBQ0gsU0FBdUJBLE9BQU9DLEVBQUUsS0FBS04sT0FBT1MsZ0JBQWdCLEdBQUdKLFNBQVNMLE9BQU9HLFNBQVM7WUFDNUc7UUFDQSxLQUFLO1lBQTJCO2dCQUM5QixPQUFPSixNQUFNVyxJQUFJLENBQUMsQ0FBQ0MsR0FBR0MsSUFBTSxJQUFJQyxLQUFLRixFQUFFRyxRQUFRLEVBQUVDLFdBQVcsR0FBR0MsYUFBYSxDQUFDLElBQUlILEtBQUtELEVBQUVFLFFBQVEsRUFBRUMsV0FBVztZQUMvRztRQUNBLEtBQUs7WUFBMkI7Z0JBQzlCLE9BQU9oQixNQUFNVyxJQUFJLENBQUMsQ0FBQ0MsR0FBR0MsSUFBTSxJQUFJQyxLQUFLRCxFQUFFRSxRQUFRLEVBQUVDLFdBQVcsR0FBR0MsYUFBYSxDQUFDLElBQUlILEtBQUtGLEVBQUVHLFFBQVEsRUFBRUMsV0FBVztZQUMvRztRQUNBLEtBQUs7WUFBa0M7Z0JBQ3JDLE9BQU9oQixNQUFNVyxJQUFJLENBQUMsQ0FBQ0MsR0FBR0MsSUFBTUQsRUFBRU0sTUFBTSxHQUFHTCxFQUFFSyxNQUFNO1lBQ2pEO1FBQ0EsS0FBSztZQUFtQztnQkFDdEMsT0FBT2xCLE1BQU1XLElBQUksQ0FBQyxDQUFDQyxHQUFHQyxJQUFNQSxFQUFFSyxNQUFNLEdBQUdOLEVBQUVNLE1BQU07WUFDakQ7UUFDQSxLQUFLO1lBQTZCO2dCQUNoQyxPQUFPbEIsTUFBTVcsSUFBSSxDQUFDLENBQUNDLEdBQUdDLElBQU1ELEVBQUVPLGFBQWEsR0FBR04sRUFBRU0sYUFBYTtZQUMvRDtRQUNBLEtBQUs7WUFBNEI7Z0JBQy9CLE9BQU9uQixNQUFNVyxJQUFJLENBQUMsQ0FBQ0MsR0FBR0MsSUFBTUEsRUFBRU0sYUFBYSxHQUFHUCxFQUFFTyxhQUFhO1lBQy9EO1FBQ0E7WUFDRSxPQUFPbkI7SUFDVDtBQUNGLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL3N0b3JlL3JlZHVjZXJzL3JlY29yZHNfcmVkdWNlci50cz8yNDVjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IElEaWFyeUVudHJ5IH0gZnJvbSBcIi4uLy4uL3R5cGVzXCJcblxuZXhwb3J0IGNvbnN0IHJlY29yZHNSZWR1Y2VyID0gKHN0YXRlOklEaWFyeUVudHJ5W10gPSBbXSwgYWN0aW9uOmFueSkgPT4ge1xuICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG4gIGNhc2UgXCJTRVRfUkVDT1JEU1wiOntcbiAgICByZXR1cm4gKGFjdGlvbi5yZWNvcmRzP2FjdGlvbi5yZWNvcmRzOltdKVxuICB9XG4gIGNhc2UgXCJBRERfUkVDT1JEXCI6e1xuICAgIHJldHVybiAoW2FjdGlvbi5uZXdyZWNvcmQsLi4uc3RhdGVdKVxuICB9XG4gIGNhc2UgXCJSRU1PVkVfUkVDT1JEXCI6e1xuICAgIHJldHVybihzdGF0ZS5maWx0ZXIoKHJlY29yZDpJRGlhcnlFbnRyeSkgPT4gcmVjb3JkLmlkICE9PSBhY3Rpb24uZGVsZXRlZHJlY29yZF9pZCkpXG4gIH1cbiAgY2FzZSBcIlVQREFURV9SRUNPUkRcIjp7XG4gICAgcmV0dXJuKHN0YXRlLm1hcCgocmVjb3JkOklEaWFyeUVudHJ5KSA9PiByZWNvcmQuaWQgIT09IGFjdGlvbi51cGRhdGVkcmVjb3JkX2lkID8gcmVjb3JkIDogYWN0aW9uLm5ld3JlY29yZCkpXG4gIH1cbiAgY2FzZSBcIlNPUlRfUkVDT1JEU19GUk9NX09MREVTVFwiOntcbiAgICByZXR1cm4oc3RhdGUuc29ydCgoYSwgYikgPT4gbmV3IERhdGUoYS5kYXRldGltZSkudG9JU09TdHJpbmcoKS5sb2NhbGVDb21wYXJlKG5ldyBEYXRlKGIuZGF0ZXRpbWUpLnRvSVNPU3RyaW5nKCkpKSlcbiAgfVxuICBjYXNlIFwiU09SVF9SRUNPUkRTX0ZST01fTkVXRVNUXCI6e1xuICAgIHJldHVybihzdGF0ZS5zb3J0KChhLCBiKSA9PiBuZXcgRGF0ZShiLmRhdGV0aW1lKS50b0lTT1N0cmluZygpLmxvY2FsZUNvbXBhcmUobmV3IERhdGUoYS5kYXRldGltZSkudG9JU09TdHJpbmcoKSkpKVxuICB9XG4gIGNhc2UgXCJTT1JUX1JFQ09SRFNfRlJPTV9MT1dFU1RfUkFUSU5HXCI6e1xuICAgIHJldHVybihzdGF0ZS5zb3J0KChhLCBiKSA9PiBhLnJhdGluZyAtIGIucmF0aW5nKSlcbiAgfVxuICBjYXNlIFwiU09SVF9SRUNPUkRTX0ZST01fSElHSEVTVF9SQVRJTkdcIjp7XG4gICAgcmV0dXJuKHN0YXRlLnNvcnQoKGEsIGIpID0+IGIucmF0aW5nIC0gYS5yYXRpbmcpKVxuICB9XG4gIGNhc2UgXCJTT1JUX1JFQ09SRFNfRlJPTV9TSE9SVEVTVFwiOntcbiAgICByZXR1cm4oc3RhdGUuc29ydCgoYSwgYikgPT4gYS5taW51dGVzX3NwZW50IC0gYi5taW51dGVzX3NwZW50KSlcbiAgfVxuICBjYXNlIFwiU09SVF9SRUNPUkRTX0ZST01fTE9OR0VTVFwiOntcbiAgICByZXR1cm4oc3RhdGUuc29ydCgoYSwgYikgPT4gYi5taW51dGVzX3NwZW50IC0gYS5taW51dGVzX3NwZW50KSlcbiAgfVxuICBkZWZhdWx0OlxuICAgIHJldHVybiBzdGF0ZVxuICB9XG59XG5cbiAgIl0sIm5hbWVzIjpbInJlY29yZHNSZWR1Y2VyIiwic3RhdGUiLCJhY3Rpb24iLCJ0eXBlIiwicmVjb3JkcyIsIm5ld3JlY29yZCIsImZpbHRlciIsInJlY29yZCIsImlkIiwiZGVsZXRlZHJlY29yZF9pZCIsIm1hcCIsInVwZGF0ZWRyZWNvcmRfaWQiLCJzb3J0IiwiYSIsImIiLCJEYXRlIiwiZGF0ZXRpbWUiLCJ0b0lTT1N0cmluZyIsImxvY2FsZUNvbXBhcmUiLCJyYXRpbmciLCJtaW51dGVzX3NwZW50Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/store/reducers/records_reducer.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/reducers/sidebar_reducer.ts":
+/*!***********************************************!*\
+  !*** ./src/store/reducers/sidebar_reducer.ts ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sidebarReducer\": () => (/* binding */ sidebarReducer)\n/* harmony export */ });\nconst sidebarReducer = (state = false, action)=>{\n    switch(action.type){\n        case \"TOGGLE_VISIBILITY\":\n            {\n                return !state;\n            }\n        default:\n            return state;\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvcmVkdWNlcnMvc2lkZWJhcl9yZWR1Y2VyLnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBTyxNQUFNQSxpQkFBaUIsQ0FBQ0MsUUFBUSxLQUFLLEVBQUVDLFNBQWU7SUFDM0QsT0FBUUEsT0FBT0MsSUFBSTtRQUNuQixLQUFLO1lBQW9CO2dCQUN2QixPQUFRLENBQUNGO1lBQ1g7UUFDQTtZQUNFLE9BQU9BO0lBQ1Q7QUFDRixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZG9uZXJvLWFwcC8uL3NyYy9zdG9yZS9yZWR1Y2Vycy9zaWRlYmFyX3JlZHVjZXIudHM/ZDdlZiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3Qgc2lkZWJhclJlZHVjZXIgPSAoc3RhdGUgPSBmYWxzZSwgYWN0aW9uOmFueSkgPT4ge1xuICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG4gIGNhc2UgXCJUT0dHTEVfVklTSUJJTElUWVwiOntcbiAgICByZXR1cm4gKCFzdGF0ZSlcbiAgfVxuICBkZWZhdWx0OlxuICAgIHJldHVybiBzdGF0ZVxuICB9XG59XG4iXSwibmFtZXMiOlsic2lkZWJhclJlZHVjZXIiLCJzdGF0ZSIsImFjdGlvbiIsInR5cGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/store/reducers/sidebar_reducer.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/reducers/tags_reducer.ts":
+/*!********************************************!*\
+  !*** ./src/store/reducers/tags_reducer.ts ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"tagsReducer\": () => (/* binding */ tagsReducer)\n/* harmony export */ });\nconst tagsReducer = (state = [], action)=>{\n    switch(action.type){\n        case \"SET_TAGS\":\n            {\n                return action.tags ? action.tags : [];\n            }\n        case \"ADD_TAG\":\n            {\n                return [\n                    action.newtag,\n                    ...state\n                ];\n            }\n        case \"REMOVE_TAG\":\n            {\n                return state.filter((tag)=>tag.id !== action.deleted_tag_id);\n            }\n        case \"UPDATE_TAG\":\n            {\n                return state.map((record)=>record.id !== action.updated_tag_id ? record : action.new_tag);\n            }\n        default:\n            return state;\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvcmVkdWNlcnMvdGFnc19yZWR1Y2VyLnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFFTyxNQUFNQSxjQUFjLENBQUNDLFFBQWEsRUFBRSxFQUFFQyxTQUFlO0lBQzFELE9BQVFBLE9BQU9DLElBQUk7UUFDbkIsS0FBSztZQUFXO2dCQUNkLE9BQVFELE9BQU9FLElBQUksR0FBQ0YsT0FBT0UsSUFBSSxHQUFDLEVBQUU7WUFDcEM7UUFDQSxLQUFLO1lBQVU7Z0JBQ2IsT0FBUTtvQkFBQ0YsT0FBT0csTUFBTTt1QkFBSUo7aUJBQU07WUFDbEM7UUFDQSxLQUFLO1lBQWE7Z0JBQ2hCLE9BQU9BLE1BQU1LLE1BQU0sQ0FBQyxDQUFDQyxNQUFhQSxJQUFJQyxFQUFFLEtBQUtOLE9BQU9PLGNBQWM7WUFDcEU7UUFDQSxLQUFLO1lBQWE7Z0JBQ2hCLE9BQU9SLE1BQU1TLEdBQUcsQ0FBQyxDQUFDQyxTQUFnQkEsT0FBT0gsRUFBRSxLQUFLTixPQUFPVSxjQUFjLEdBQUdELFNBQVNULE9BQU9XLE9BQU87WUFDakc7UUFDQTtZQUNFLE9BQU9aO0lBQ1Q7QUFDRixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZG9uZXJvLWFwcC8uL3NyYy9zdG9yZS9yZWR1Y2Vycy90YWdzX3JlZHVjZXIudHM/M2Y2MyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJVGFnIH0gZnJvbSBcIi4uLy4uL3R5cGVzXCJcblxuZXhwb3J0IGNvbnN0IHRhZ3NSZWR1Y2VyID0gKHN0YXRlOklUYWdbXT1bXSwgYWN0aW9uOmFueSkgPT4ge1xuICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG4gIGNhc2UgXCJTRVRfVEFHU1wiOntcbiAgICByZXR1cm4gKGFjdGlvbi50YWdzP2FjdGlvbi50YWdzOltdKVxuICB9XG4gIGNhc2UgXCJBRERfVEFHXCI6e1xuICAgIHJldHVybiAoW2FjdGlvbi5uZXd0YWcsLi4uc3RhdGVdKVxuICB9XG4gIGNhc2UgXCJSRU1PVkVfVEFHXCI6e1xuICAgIHJldHVybihzdGF0ZS5maWx0ZXIoKHRhZzpJVGFnKSA9PiB0YWcuaWQgIT09IGFjdGlvbi5kZWxldGVkX3RhZ19pZCkpXG4gIH1cbiAgY2FzZSBcIlVQREFURV9UQUdcIjp7XG4gICAgcmV0dXJuKHN0YXRlLm1hcCgocmVjb3JkOklUYWcpID0+IHJlY29yZC5pZCAhPT0gYWN0aW9uLnVwZGF0ZWRfdGFnX2lkID8gcmVjb3JkIDogYWN0aW9uLm5ld190YWcpKVxuICB9XG4gIGRlZmF1bHQ6XG4gICAgcmV0dXJuIHN0YXRlXG4gIH1cbn1cbiAgIl0sIm5hbWVzIjpbInRhZ3NSZWR1Y2VyIiwic3RhdGUiLCJhY3Rpb24iLCJ0eXBlIiwidGFncyIsIm5ld3RhZyIsImZpbHRlciIsInRhZyIsImlkIiwiZGVsZXRlZF90YWdfaWQiLCJtYXAiLCJyZWNvcmQiLCJ1cGRhdGVkX3RhZ19pZCIsIm5ld190YWciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/store/reducers/tags_reducer.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/reducers/users_reducer.ts":
+/*!*********************************************!*\
+  !*** ./src/store/reducers/users_reducer.ts ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"usersReducer\": () => (/* binding */ usersReducer)\n/* harmony export */ });\nconst usersReducer = (state = [], action)=>{\n    switch(action.type){\n        case \"SET_USERS\":\n            {\n                return action.users ? action.users : [];\n            }\n        case \"ADD_USER\":\n            {\n                return [\n                    action.newuser,\n                    ...state\n                ];\n            }\n        case \"REMOVE_USER\":\n            {\n                return state.filter((user)=>user.id !== action.deleteduser_id);\n            }\n        case \"UPDATE_USER\":\n            {\n                return state.map((record)=>record.id !== action.updated_user_id ? record : action.newrecord);\n            }\n        default:\n            return state;\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvcmVkdWNlcnMvdXNlcnNfcmVkdWNlci50cy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBRU8sTUFBTUEsZUFBZSxDQUFDQyxRQUFjLEVBQUUsRUFBRUMsU0FBZTtJQUM1RCxPQUFRQSxPQUFPQyxJQUFJO1FBQ25CLEtBQUs7WUFBWTtnQkFDZixPQUFRRCxPQUFPRSxLQUFLLEdBQUNGLE9BQU9FLEtBQUssR0FBQyxFQUFFO1lBQ3RDO1FBQ0EsS0FBSztZQUFXO2dCQUNkLE9BQVE7b0JBQUNGLE9BQU9HLE9BQU87dUJBQUlKO2lCQUFNO1lBQ25DO1FBQ0EsS0FBSztZQUFjO2dCQUNqQixPQUFPQSxNQUFNSyxNQUFNLENBQUMsQ0FBQ0MsT0FBZUEsS0FBS0MsRUFBRSxLQUFLTixPQUFPTyxjQUFjO1lBQ3ZFO1FBQ0EsS0FBSztZQUFjO2dCQUNqQixPQUFPUixNQUFNUyxHQUFHLENBQUMsQ0FBQ0MsU0FBaUJBLE9BQU9ILEVBQUUsS0FBS04sT0FBT1UsZUFBZSxHQUFHRCxTQUFTVCxPQUFPVyxTQUFTO1lBQ3JHO1FBQ0E7WUFDRSxPQUFPWjtJQUNUO0FBQ0YsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2RvbmVyby1hcHAvLi9zcmMvc3RvcmUvcmVkdWNlcnMvdXNlcnNfcmVkdWNlci50cz82YTYwIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IElVc2VyIH0gZnJvbSBcIi4uLy4uL3R5cGVzXCJcblxuZXhwb3J0IGNvbnN0IHVzZXJzUmVkdWNlciA9IChzdGF0ZTpJVXNlcltdPVtdLCBhY3Rpb246YW55KSA9PiB7XG4gIHN3aXRjaCAoYWN0aW9uLnR5cGUpIHtcbiAgY2FzZSBcIlNFVF9VU0VSU1wiOntcbiAgICByZXR1cm4gKGFjdGlvbi51c2Vycz9hY3Rpb24udXNlcnM6W10pXG4gIH1cbiAgY2FzZSBcIkFERF9VU0VSXCI6e1xuICAgIHJldHVybiAoW2FjdGlvbi5uZXd1c2VyLC4uLnN0YXRlXSlcbiAgfVxuICBjYXNlIFwiUkVNT1ZFX1VTRVJcIjp7XG4gICAgcmV0dXJuKHN0YXRlLmZpbHRlcigodXNlcjpJVXNlcikgPT4gdXNlci5pZCAhPT0gYWN0aW9uLmRlbGV0ZWR1c2VyX2lkKSlcbiAgfVxuICBjYXNlIFwiVVBEQVRFX1VTRVJcIjp7XG4gICAgcmV0dXJuKHN0YXRlLm1hcCgocmVjb3JkOklVc2VyKSA9PiByZWNvcmQuaWQgIT09IGFjdGlvbi51cGRhdGVkX3VzZXJfaWQgPyByZWNvcmQgOiBhY3Rpb24ubmV3cmVjb3JkKSlcbiAgfVxuICBkZWZhdWx0OlxuICAgIHJldHVybiBzdGF0ZVxuICB9XG59XG4gICJdLCJuYW1lcyI6WyJ1c2Vyc1JlZHVjZXIiLCJzdGF0ZSIsImFjdGlvbiIsInR5cGUiLCJ1c2VycyIsIm5ld3VzZXIiLCJmaWx0ZXIiLCJ1c2VyIiwiaWQiLCJkZWxldGVkdXNlcl9pZCIsIm1hcCIsInJlY29yZCIsInVwZGF0ZWRfdXNlcl9pZCIsIm5ld3JlY29yZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/store/reducers/users_reducer.ts\n");
+
+/***/ }),
+
+/***/ "./src/store/store.ts":
+/*!****************************!*\
+  !*** ./src/store/store.ts ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"store\": () => (/* binding */ store),\n/* harmony export */   \"wrapper\": () => (/* binding */ wrapper)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux-thunk */ \"redux-thunk\");\n/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(redux_thunk__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var redux_devtools_extension__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! redux-devtools-extension */ \"redux-devtools-extension\");\n/* harmony import */ var redux_devtools_extension__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(redux_devtools_extension__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-redux-wrapper */ \"next-redux-wrapper\");\n/* harmony import */ var next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./reducers */ \"./src/store/reducers/index.ts\");\n\n\n\n\n\nconst initalState = {\n    records: [],\n    sidebar: false,\n    users: [],\n    tags: [],\n    page: \"home\",\n    mode: false\n};\nconst middleware = [\n    (redux_thunk__WEBPACK_IMPORTED_MODULE_1___default())\n];\nconst store = (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(_reducers__WEBPACK_IMPORTED_MODULE_4__[\"default\"], initalState, (0,redux_devtools_extension__WEBPACK_IMPORTED_MODULE_2__.composeWithDevTools)((0,redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware)(...middleware)));\nconst makeStore = ()=>store;\nconst wrapper = (0,next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3__.createWrapper)(makeStore);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3RvcmUvc3RvcmUudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBb0Q7QUFDckI7QUFDK0I7QUFDWjtBQUNYO0FBRXZDLE1BQU1NLGNBQWM7SUFDbEJDLFNBQVEsRUFBRTtJQUNWQyxTQUFRLEtBQUs7SUFDYkMsT0FBTSxFQUFFO0lBQ1JDLE1BQUssRUFBRTtJQUNQQyxNQUFLO0lBQ0xDLE1BQUssS0FBSztBQUNaO0FBRUEsTUFBTUMsYUFBYTtJQUFDWCxvREFBS0E7Q0FBQztBQUVuQixNQUFNWSxRQUFRZCxrREFBV0EsQ0FDOUJLLGlEQUFjQSxFQUNkQyxhQUNBSCw2RUFBbUJBLENBQUNGLHNEQUFlQSxJQUFJWSxjQUN4QztBQUVELE1BQU1FLFlBQVksSUFBTUQ7QUFFakIsTUFBTUUsVUFBVVosaUVBQWFBLENBQUNXLFdBQVUiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kb25lcm8tYXBwLy4vc3JjL3N0b3JlL3N0b3JlLnRzPzUwMmYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlU3RvcmUsIGFwcGx5TWlkZGxld2FyZSB9IGZyb20gXCJyZWR1eFwiXG5pbXBvcnQgdGh1bmsgZnJvbSBcInJlZHV4LXRodW5rXCJcbmltcG9ydCB7IGNvbXBvc2VXaXRoRGV2VG9vbHMgfSBmcm9tIFwicmVkdXgtZGV2dG9vbHMtZXh0ZW5zaW9uXCJcbmltcG9ydCB7IGNyZWF0ZVdyYXBwZXIgfSBmcm9tIFwibmV4dC1yZWR1eC13cmFwcGVyXCJcbmltcG9ydCBjb21iaW5lUmVkdWNlciBmcm9tIFwiLi9yZWR1Y2Vyc1wiXG5cbmNvbnN0IGluaXRhbFN0YXRlID0ge1xuICByZWNvcmRzOltdLFxuICBzaWRlYmFyOmZhbHNlLFxuICB1c2VyczpbXSxcbiAgdGFnczpbXSxcbiAgcGFnZTpcImhvbWVcIixcbiAgbW9kZTpmYWxzZSxcbn1cblxuY29uc3QgbWlkZGxld2FyZSA9IFt0aHVua11cblxuZXhwb3J0IGNvbnN0IHN0b3JlID0gY3JlYXRlU3RvcmUoXG4gIGNvbWJpbmVSZWR1Y2VyLFxuICBpbml0YWxTdGF0ZSxcbiAgY29tcG9zZVdpdGhEZXZUb29scyhhcHBseU1pZGRsZXdhcmUoLi4ubWlkZGxld2FyZSkpXG4pXG5cbmNvbnN0IG1ha2VTdG9yZSA9ICgpID0+IHN0b3JlXG5cbmV4cG9ydCBjb25zdCB3cmFwcGVyID0gY3JlYXRlV3JhcHBlcihtYWtlU3RvcmUpIl0sIm5hbWVzIjpbImNyZWF0ZVN0b3JlIiwiYXBwbHlNaWRkbGV3YXJlIiwidGh1bmsiLCJjb21wb3NlV2l0aERldlRvb2xzIiwiY3JlYXRlV3JhcHBlciIsImNvbWJpbmVSZWR1Y2VyIiwiaW5pdGFsU3RhdGUiLCJyZWNvcmRzIiwic2lkZWJhciIsInVzZXJzIiwidGFncyIsInBhZ2UiLCJtb2RlIiwibWlkZGxld2FyZSIsInN0b3JlIiwibWFrZVN0b3JlIiwid3JhcHBlciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/store/store.ts\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 1320:
+/***/ "dompurify":
+/*!****************************!*\
+  !*** external "dompurify" ***!
+  \****************************/
 /***/ ((module) => {
 
 "use strict";
@@ -280,7 +242,21 @@ module.exports = require("dompurify");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "next-redux-wrapper":
+/*!*************************************!*\
+  !*** external "next-redux-wrapper" ***!
+  \*************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next-redux-wrapper");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -288,7 +264,10 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 6022:
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
 /***/ ((module) => {
 
 "use strict";
@@ -296,15 +275,54 @@ module.exports = require("react-redux");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ }),
 
-/***/ 9648:
+/***/ "redux":
+/*!************************!*\
+  !*** external "redux" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("redux");
+
+/***/ }),
+
+/***/ "redux-devtools-extension":
+/*!*******************************************!*\
+  !*** external "redux-devtools-extension" ***!
+  \*******************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("redux-devtools-extension");
+
+/***/ }),
+
+/***/ "redux-thunk":
+/*!******************************!*\
+  !*** external "redux-thunk" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("redux-thunk");
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -319,7 +337,7 @@ module.exports = import("axios");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [821], () => (__webpack_exec__(3847)));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
 module.exports = __webpack_exports__;
 
 })();
