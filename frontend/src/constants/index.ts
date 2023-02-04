@@ -1,4 +1,4 @@
-export const baseUrl = "http://localhost/api"
+export const baseUrl = "/api"
 export const programmingLanguages = ["Python","Javascript","C++"]
 export const inputSameProperties ="w-full my-[4px] rounded-md border border-black p-2 m-auto"
 export const colorsNames = ["yellow","orange","red","pink","purple","blue","green","brown"]
